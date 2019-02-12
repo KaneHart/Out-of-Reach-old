@@ -121,7 +121,11 @@ mods.jei.JEI.hide(<techreborn:machine_frame:1>);
 recipes.remove(<techreborn:machine_frame>);
 mods.jei.JEI.hide(<techreborn:machine_frame>);
 
-
+//removed magic conversion crap
+recipes.remove(<techreborn:magic_energy_converter>);
+mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
+recipes.remove(<techreborn:magic_energy_absorber>);
+mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
 
 
 
