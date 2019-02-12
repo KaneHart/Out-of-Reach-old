@@ -43,8 +43,6 @@ mods.techreborn.compressor.removeRecipe(<techreborn:plates:8>);
 mods.techreborn.compressor.removeRecipe(<immersiveengineering:metal:35>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:31>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:15>);
-mods.techreborn.compressor.removeRecipe(<ic2:resource:4>);
-mods.techreborn.compressor.removeRecipe(<ic2:purified:6>);
-mods.techreborn.compressor.removeRecipe(<ic2:crushed:6>);
+mods.techreborn.compressor.removeRecipe(<advanced_solar_panels:crafting:11>);
 
 
