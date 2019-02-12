@@ -12,3 +12,6 @@ mods.jei.JEI.hide(<ic2:te:93>);
 recipes.remove(<ic2:te:92>);
 mods.jei.JEI.hide(<ic2:te:92>);
 
+//removed Recycler too OP and just causes lag.
+recipes.remove(<ic2:te:48>);
+mods.jei.JEI.hide(<ic2:te:48>);
