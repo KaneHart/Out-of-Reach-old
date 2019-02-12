@@ -7,3 +7,8 @@ mods.jei.JEI.hide(<ic2:frequency_transmitter>);
 //removed UU Assembly Bench
 recipes.remove(<ic2:te:93>);
 mods.jei.JEI.hide(<ic2:te:93>);
+
+//removed Mass Fabricator (This the old one not the new Matter version)
+recipes.remove(<ic2:te:92>);
+mods.jei.JEI.hide(<ic2:te:92>);
+
