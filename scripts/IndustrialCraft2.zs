@@ -50,4 +50,8 @@ mods.jei.JEI.hide(<ic2:te:7>);
 recipes.remove(<ic2:te:82>);
 mods.jei.JEI.hide(<ic2:te:82>);
 
+//removed UU Matter Old Item Version
+recipes.remove(<ic2:misc_resource:3>);
+mods.jei.JEI.hide(<ic2:misc_resource:3>);
+
 
