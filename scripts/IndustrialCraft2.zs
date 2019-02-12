@@ -42,4 +42,6 @@ mods.jei.JEI.hide(<ic2:te:11>);
 
 //removed Geothermal & Semi Fluid Generator in support of TechReborns versions later tiers.
 recipes.remove(<ic2:te:4>);
+mods.jei.JEI.hide(<ic2:te:4>);
 recipes.remove(<ic2:te:7>);
+mods.jei.JEI.hide(<ic2:te:7>);
