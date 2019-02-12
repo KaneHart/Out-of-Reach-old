@@ -99,9 +99,19 @@ mods.jei.JEI.hide(<techreborn:chunk_loader>);
 recipes.remove(<techreborn:fluid_replicator>);
 mods.jei.JEI.hide(<techreborn:fluid_replicator>);
 
-//remove Tech Manual
+//removed Tech Manual
 recipes.remove(<techreborn:techmanuel>);
 mods.jei.JEI.hide(<techreborn:techmanuel>);
+
+//removed rubber planks, stairs, double slabs, etc
+recipes.remove(<techreborn:rubber_plank_stair>);
+mods.jei.JEI.hide(<techreborn:rubber_plank_stair>);
+recipes.remove(<techreborn:rubber_plank_double_slab>);
+mods.jei.JEI.hide(<techreborn:rubber_plank_double_slab>);
+recipes.remove(<techreborn:rubber_planks>);
+mods.jei.JEI.hide(<techreborn:rubber_planks>);
+
+
 
 
 
