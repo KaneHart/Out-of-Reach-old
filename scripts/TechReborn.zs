@@ -89,8 +89,11 @@ mods.jei.JEI.hide(<techreborn:scrapboxinator>);
 
 //removed Industrial Chunkloader
 recipes.remove(<techreborn:chunk_loader>);
+mods.jei.JEI.hide(<techreborn:chunk_loader>);
 
-
+//removed Fluid Replicator
+recipes.remove(<techreborn:fluid_replicator>);
+mods.jei.JEI.hide(<techreborn:fluid_replicator>);
 
 
 
