@@ -69,7 +69,19 @@ mods.jei.JEI.hide(<techreborn:ore:12>);
 mods.jei.JEI.hide(<techreborn:ore2>);
 mods.jei.JEI.hide(<techreborn:ore2:1>);
 
-
+//removed Thorium & Plutonium Cells from TR
+recipes.remove(<techreborn:part:23>);
+mods.jei.JEI.hide(<techreborn:part:23>);
+recipes.remove(<techreborn:part:22>);
+mods.jei.JEI.hide(<techreborn:part:22>);
+recipes.remove(<techreborn:part:21>);
+mods.jei.JEI.hide(<techreborn:part:21>);
+recipes.remove(<techreborn:part:20>);
+mods.jei.JEI.hide(<techreborn:part:20>);
+recipes.remove(<techreborn:part:19>);
+mods.jei.JEI.hide(<techreborn:part:19>);
+recipes.remove(<techreborn:part:18>);
+mods.jei.JEI.hide(<techreborn:part:18>);
 
 
 
