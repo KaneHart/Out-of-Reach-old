@@ -30,6 +30,10 @@ mods.jei.JEI.hide(<techreborn:energycrystal>);
 recipes.remove(<techreborn:omnitool>);
 mods.jei.JEI.hide(<techreborn:omnitool>);
 
+//removed and hide uu matter
+recipes.remove(<techreborn:uumatter>);
+mods.jei.JEI.hide(<techreborn:uumatter>);
+
 //remove UU-Matter Recipes
 recipes.removeByRecipeName("techreborn:log");
 recipes.removeByRecipeName("techreborn:stone");
