@@ -19,3 +19,11 @@ mods.jei.JEI.hide(<ic2:te:48>);
 //removed IC2 Nuke.. Not sure why it's showing up
 recipes.remove(<ic2:te:2>);
 mods.jei.JEI.hide(<ic2:te:2>);
+
+//removed Dynamite and Sticky version as well as remote.
+recipes.remove(<ic2:dynamite>);
+mods.jei.JEI.hide(<ic2:dynamite>);
+recipes.remove(<ic2:dynamite_sticky>);
+mods.jei.JEI.hide(<ic2:dynamite_sticky>);
+recipes.remove(<ic2:remote>);
+mods.jei.JEI.hide(<ic2:remote>);
