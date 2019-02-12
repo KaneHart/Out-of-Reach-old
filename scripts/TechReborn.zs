@@ -83,5 +83,17 @@ mods.jei.JEI.hide(<techreborn:part:19>);
 recipes.remove(<techreborn:part:18>);
 mods.jei.JEI.hide(<techreborn:part:18>);
 
+//removed Scrapbox-inator
+recipes.remove(<techreborn:scrapboxinator>);
+mods.jei.JEI.hide(<techreborn:scrapboxinator>);
+
+//removed Industrial Chunkloader
+recipes.remove(<techreborn:chunk_loader>);
+
+
+
+
+
+
 
 
