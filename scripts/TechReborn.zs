@@ -115,6 +115,11 @@ mods.jei.JEI.hide(<techreborn:rubber_planks>);
 recipes.remove(<techreborn:reinforced_glass>);
 mods.jei.JEI.hide(<techreborn:reinforced_glass>);
 
+//Removed Basic Machine Frame & Advanced Machine Frame
+recipes.remove(<techreborn:machine_frame:1>);
+mods.jei.JEI.hide(<techreborn:machine_frame:1>);
+recipes.remove(<techreborn:machine_frame>);
+mods.jei.JEI.hide(<techreborn:machine_frame>);
 
 
 
