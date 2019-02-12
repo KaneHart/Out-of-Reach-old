@@ -27,3 +27,7 @@ recipes.remove(<ic2:dynamite_sticky>);
 mods.jei.JEI.hide(<ic2:dynamite_sticky>);
 recipes.remove(<ic2:remote>);
 mods.jei.JEI.hide(<ic2:remote>);
+
+//removed Advance Miner and Miner
+recipes.remove(<ic2:te:57>);
+recipes.remove(<ic2:te:60>);
