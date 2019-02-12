@@ -111,6 +111,15 @@ mods.jei.JEI.hide(<techreborn:rubber_plank_double_slab>);
 recipes.remove(<techreborn:rubber_planks>);
 mods.jei.JEI.hide(<techreborn:rubber_planks>);
 
+//Reinforced Glass
+recipes.remove(<techreborn:reinforced_glass>);
+mods.jei.JEI.hide(<techreborn:reinforced_glass>);
+
+
+
+
+
+
 
 
 
