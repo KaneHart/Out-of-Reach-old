@@ -54,4 +54,10 @@ mods.jei.JEI.hide(<ic2:te:82>);
 recipes.remove(<ic2:misc_resource:3>);
 mods.jei.JEI.hide(<ic2:misc_resource:3>);
 
+//removed Scrap & Scrap Box
+recipes.remove(<ic2:crafting:23>);
+mods.jei.JEI.hide(<ic2:crafting:23>);
+recipes.remove(<ic2:crafting:24>);
+mods.jei.JEI.hide(<ic2:crafting:24>);
+
 
