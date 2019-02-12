@@ -34,6 +34,10 @@ mods.jei.JEI.hide(<techreborn:omnitool>);
 recipes.remove(<techreborn:uumatter>);
 mods.jei.JEI.hide(<techreborn:uumatter>);
 
+//removed scrap box
+recipes.remove(<techreborn:scrapbox>);
+mods.jei.JEI.hide(<techreborn:scrapbox>);
+
 //remove UU-Matter Recipes
 recipes.removeByRecipeName("techreborn:log");
 recipes.removeByRecipeName("techreborn:stone");
