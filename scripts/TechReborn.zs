@@ -18,4 +18,14 @@ mods.jei.JEI.hide(<techreborn:solar_panel:1>);
 recipes.remove(<techreborn:solar_panel>);
 mods.jei.JEI.hide(<techreborn:solar_panel>);
 
+//Remove Lapotron and Energy Crystals And Batteries infavor of IC2's
+recipes.remove(<techreborn:rebattery>);
+mods.jei.JEI.hide(<techreborn:rebattery>);
+recipes.remove(<techreborn:lapotroncrystal>);
+mods.jei.JEI.hide(<techreborn:lapotroncrystal>);
+recipes.remove(<techreborn:energycrystal>);
+mods.jei.JEI.hide(<techreborn:energycrystal>);
+
+
+
 
