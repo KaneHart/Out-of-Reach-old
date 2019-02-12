@@ -34,6 +34,12 @@ mods.jei.JEI.hide(<ic2:te:57>);
 recipes.remove(<ic2:te:60>);
 mods.jei.JEI.hide(<ic2:te:60>);
 
+//removed OV & OD Scanner
+recipes.remove(<ic2:advanced_scanner:26>);
+mods.jei.JEI.hide(<ic2:advanced_scanner:26>);
+recipes.remove(<ic2:scanner:26>);
+mods.jei.JEI.hide(<ic2:scanner:26>);
+
 //removed Water and Wind Mills in support of new turbine versions in IC2.
 recipes.remove(<ic2:te:10>);
 mods.jei.JEI.hide(<ic2:te:10>);
