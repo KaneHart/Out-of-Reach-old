@@ -45,3 +45,9 @@ recipes.remove(<ic2:te:4>);
 mods.jei.JEI.hide(<ic2:te:4>);
 recipes.remove(<ic2:te:7>);
 mods.jei.JEI.hide(<ic2:te:7>);
+
+//remove chunkloader
+recipes.remove(<ic2:te:82>);
+mods.jei.JEI.hide(<ic2:te:82>);
+
+
