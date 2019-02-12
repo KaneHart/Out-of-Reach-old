@@ -111,11 +111,11 @@ mods.jei.JEI.hide(<techreborn:rubber_plank_double_slab>);
 recipes.remove(<techreborn:rubber_planks>);
 mods.jei.JEI.hide(<techreborn:rubber_planks>);
 
-//Reinforced Glass
+//reinforced Glass
 recipes.remove(<techreborn:reinforced_glass>);
 mods.jei.JEI.hide(<techreborn:reinforced_glass>);
 
-//Removed Basic Machine Frame & Advanced Machine Frame
+//removed Basic Machine Frame & Advanced Machine Frame
 recipes.remove(<techreborn:machine_frame:1>);
 mods.jei.JEI.hide(<techreborn:machine_frame:1>);
 recipes.remove(<techreborn:machine_frame>);
@@ -127,7 +127,8 @@ mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
 recipes.remove(<techreborn:magic_energy_absorber>);
 mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
 
-
+//removed wind mill
+recipes.remove(<techreborn:wind_mill>);
 
 
 
