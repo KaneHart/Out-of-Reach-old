@@ -15,3 +15,7 @@ mods.jei.JEI.hide(<ic2:te:92>);
 //removed Recycler too OP and just causes lag.
 recipes.remove(<ic2:te:48>);
 mods.jei.JEI.hide(<ic2:te:48>);
+
+//removed IC2 Nuke.. Not sure why it's showing up
+recipes.remove(<ic2:te:2>);
+mods.jei.JEI.hide(<ic2:te:2>);
