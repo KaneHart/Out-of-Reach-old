@@ -31,3 +31,10 @@ mods.jei.JEI.hide(<ic2:remote>);
 //removed Advance Miner and Miner
 recipes.remove(<ic2:te:57>);
 recipes.remove(<ic2:te:60>);
+
+//removed Water and Wind Mills in support of new turbine versions in IC2.
+recipes.remove(<ic2:te:10>);
+mods.jei.JEI.hide(<ic2:te:10>);
+recipes.remove(<ic2:te:11>);
+mods.jei.JEI.hide(<ic2:te:11>);
+
