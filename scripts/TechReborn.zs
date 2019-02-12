@@ -30,4 +30,38 @@ mods.jei.JEI.hide(<techreborn:energycrystal>);
 recipes.remove(<techreborn:omnitool>);
 mods.jei.JEI.hide(<techreborn:omnitool>);
 
+//remove UU-Matter Recipes
+recipes.removeByRecipeName("techreborn:log");
+recipes.removeByRecipeName("techreborn:stone");
+recipes.removeByRecipeName("techreborn:snow");
+recipes.removeByRecipeName("techreborn:grass");
+recipes.removeByRecipeName("techreborn:obsidian");
+recipes.removeByRecipeName("techreborn:glass");
+recipes.removeByRecipeName("techreborn:dye");
+recipes.removeByRecipeName("techreborn:glowstone");
+recipes.removeByRecipeName("techreborn:cactus");
+recipes.removeByRecipeName("techreborn:reeds");
+recipes.removeByRecipeName("techreborn:vine");
+recipes.removeByRecipeName("techreborn:snowball");
+recipes.removeByRecipeName("techreborn:clay_ball");
+recipes.removeByRecipeName("techreborn:waterlily");
+recipes.removeByRecipeName("techreborn:gunpowder");
+recipes.removeByRecipeName("techreborn:bone");
+recipes.removeByRecipeName("techreborn:feather");
+recipes.removeByRecipeName("techreborn:dye_1");
+recipes.removeByRecipeName("techreborn:ender_pearl");
+recipes.removeByRecipeName("techreborn:coal");
+recipes.removeByRecipeName("techreborn:redstone_1");
+recipes.removeByRecipeName("techreborn:dye_2");
+recipes.removeByRecipeName("techreborn:emerald_ore");
+recipes.removeByRecipeName("techreborn:emerald");
+recipes.removeByRecipeName("techreborn:diamond_1");
+recipes.removeByRecipeName("techreborn:dust_65");
+recipes.removeByRecipeName("techreborn:dust_66");
+
+
+
+
+
+
 
