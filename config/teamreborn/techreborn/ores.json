@@ -2,7 +2,7 @@
   "generateTechRebornFeatures": true,
   "generateOres": true,
   "retroGenOres": false,
-  "overworldOresInModdedDims": false,
+  "overworldOresInModdedDims": true,
   "overworldOres": [
     {
       "blockName": "tile.techreborn.ore",
