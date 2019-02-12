@@ -59,7 +59,11 @@ recipes.removeByRecipeName("techreborn:diamond_1");
 recipes.removeByRecipeName("techreborn:dust_65");
 recipes.removeByRecipeName("techreborn:dust_66");
 
-
+//removed unused ores from JEI, Iridium Ore, Lead Ore, Copper Ore, Tin Ore
+mods.jei.JEI.hide(<techreborn:ore:1>);
+mods.jei.JEI.hide(<techreborn:ore:12>);
+mods.jei.JEI.hide(<techreborn:ore2>);
+mods.jei.JEI.hide(<techreborn:ore2:1>);
 
 
 
