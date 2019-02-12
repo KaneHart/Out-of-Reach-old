@@ -26,6 +26,8 @@ mods.jei.JEI.hide(<techreborn:lapotroncrystal>);
 recipes.remove(<techreborn:energycrystal>);
 mods.jei.JEI.hide(<techreborn:energycrystal>);
 
-
+//removed omni tool as no recipe exists anyways
+recipes.remove(<techreborn:omnitool>);
+mods.jei.JEI.hide(<techreborn:omnitool>);
 
 
