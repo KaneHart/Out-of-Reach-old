@@ -95,7 +95,9 @@ mods.jei.JEI.hide(<techreborn:chunk_loader>);
 recipes.remove(<techreborn:fluid_replicator>);
 mods.jei.JEI.hide(<techreborn:fluid_replicator>);
 
-
+//remove Tech Manual
+recipes.remove(<techreborn:techmanuel>);
+mods.jei.JEI.hide(<techreborn:techmanuel>);
 
 
 
