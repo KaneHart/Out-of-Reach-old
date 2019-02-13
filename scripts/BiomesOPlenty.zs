@@ -65,3 +65,21 @@ mods.jei.JEI.hide(<biomesoplenty:gem:2>);
 mods.jei.JEI.hide(<biomesoplenty:gem:1>);
 mods.jei.JEI.hide(<biomesoplenty:gem>);
 
+//Removed & Hide BOP Gem Blocks
+recipes.remove(<biomesoplenty:gem_block:7>);
+recipes.remove(<biomesoplenty:gem_block:6>);
+recipes.remove(<biomesoplenty:gem_block:5>);
+recipes.remove(<biomesoplenty:gem_block:4>);
+recipes.remove(<biomesoplenty:gem_block:3>);
+recipes.remove(<biomesoplenty:gem_block:2>);
+recipes.remove(<biomesoplenty:gem_block:1>);
+recipes.remove(<biomesoplenty:gem_block>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:7>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:6>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:5>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:4>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:3>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:2>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block:1>);
+mods.jei.JEI.hide(<biomesoplenty:gem_block>);
+
