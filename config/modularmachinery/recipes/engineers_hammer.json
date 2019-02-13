@@ -1,0 +1,31 @@
+{
+    "machine": "engineers_hammer_forge",
+    "registryName": "engineers_hammer",
+    "recipeTime": 12000,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:tool",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:string",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 1000
+        }
+    ]
+}
