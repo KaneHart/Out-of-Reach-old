@@ -1,3 +1,6 @@
+//Removed Basic Machine Casing, using MM Recipe made
+recipes.remove(<ic2:resource:12>);
+
 //removed Teleporter & Frequency Transmitter
 recipes.remove(<ic2:te:39>);
 mods.jei.JEI.hide(<ic2:te:39>);
