@@ -121,7 +121,7 @@
             "z": 1,
             "nbt": {"id":"quark:smoker"},
             "elements": [
-                "industrialrenewal:block_chimney"
+                "railcraft:equipment@3"
             ]
         },
         {
