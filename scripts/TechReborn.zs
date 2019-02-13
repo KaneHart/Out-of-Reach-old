@@ -129,6 +129,7 @@ mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
 
 //removed wind mill
 recipes.remove(<techreborn:wind_mill>);
+mods.jei.JEI.hide(<techreborn:wind_mill>);
 
 
 
