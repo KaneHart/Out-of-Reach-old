@@ -45,3 +45,23 @@ mods.jei.JEI.hide(<biomesoplenty:boat_umbran>);
 mods.jei.JEI.hide(<biomesoplenty:boat_cherry>);
 mods.jei.JEI.hide(<biomesoplenty:boat_sacred_oak>);
 
+//Removed & Hide BOP Gems
+recipes.remove(<biomesoplenty:terrestrial_artifact>);
+recipes.remove(<biomesoplenty:gem:7>);
+recipes.remove(<biomesoplenty:gem:6>);
+recipes.remove(<biomesoplenty:gem:5>);
+recipes.remove(<biomesoplenty:gem:4>);
+recipes.remove(<biomesoplenty:gem:3>);
+recipes.remove(<biomesoplenty:gem:2>);
+recipes.remove(<biomesoplenty:gem:1>);
+recipes.remove(<biomesoplenty:gem>);
+mods.jei.JEI.hide(<biomesoplenty:terrestrial_artifact>);
+mods.jei.JEI.hide(<biomesoplenty:gem:7>);
+mods.jei.JEI.hide(<biomesoplenty:gem:6>);
+mods.jei.JEI.hide(<biomesoplenty:gem:5>);
+mods.jei.JEI.hide(<biomesoplenty:gem:4>);
+mods.jei.JEI.hide(<biomesoplenty:gem:3>);
+mods.jei.JEI.hide(<biomesoplenty:gem:2>);
+mods.jei.JEI.hide(<biomesoplenty:gem:1>);
+mods.jei.JEI.hide(<biomesoplenty:gem>);
+
