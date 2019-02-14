@@ -16,3 +16,11 @@ recipes.addShaped(<nuclearcraft:part:4>, [[<ic2:ingot:2>, <ic2:ingot:2>, null],[
 recipes.remove(<nuclearcraft:part:8>);
 recipes.addShaped(<nuclearcraft:part:8>, [[<ic2:ingot:5>, <ic2:ingot:5>, null],[<nuclearcraft:part:4>, <nuclearcraft:part:4>, <mekanism:ingot:1>], [<ic2:ingot:5>, <ic2:ingot:5>, null]]);
 
+//Removed Solar Panels
+recipes.remove(<nuclearcraft:solar_panel_elite>);
+recipes.remove(<nuclearcraft:solar_panel_du>);
+recipes.remove(<nuclearcraft:solar_panel_advanced>);
+recipes.remove(<nuclearcraft:solar_panel_basic>);
+
+
+
