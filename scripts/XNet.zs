@@ -34,6 +34,9 @@ recipes.addShaped(<xnet:netcable:4> * 8, [[<immersiveengineering:wirecoil:5>, <i
 recipes.remove(<xnet:connector_upgrade>);
 recipes.addShaped(<xnet:connector_upgrade>, [[<xnet:netcable>, <minecraft:ender_pearl>, null],[<minecraft:diamond>, <immersiveengineering:wirecoil:5>, null], [null, null, null]]);
 
+//XNet Advanced Connector
+recipes.remove(<xnet:advanced_connector>);
+recipes.addShaped(<xnet:advanced_connector>, [[<xnet:connector>, <minecraft:ender_pearl>, null],[<minecraft:diamond>, <immersiveengineering:wirecoil:5>, null], [null, null, null]]);recipes.remove(<xnet:advanced_connector>);
 
 
 
