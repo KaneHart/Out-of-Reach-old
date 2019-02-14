@@ -199,6 +199,9 @@ recipes.addShaped(<techreborn:vacuum_freezer>, [[<missingmaterialsmod:silver_inf
 recipes.remove(<techreborn:lsu_storage>);
 recipes.addShaped(<techreborn:lsu_storage>, [[<minecraft:lapis_block>, <minecraft:lapis_block>, <minecraft:lapis_block>],[<minecraft:lapis_block>, <missingmaterialsmod:silver_infused_steel_machine>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <minecraft:lapis_block>]]);
 
+//Chemical Reactor
+recipes.remove(<techreborn:chemical_reactor>);
+recipes.addShaped(<techreborn:chemical_reactor>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <ic2:te:43>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
 
 
