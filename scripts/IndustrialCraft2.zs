@@ -73,4 +73,10 @@ mods.jei.JEI.hide(<ic2:crafting:24>);
 recipes.remove(<ic2:te:3>);
 recipes.addShaped(<ic2:te:3>, [[null, <ic2:re_battery:*>, null],[null, <ic2:resource:12>, null], [null, <minecraft:furnace>, null]]);
 
+//Electric Jetpack Nerf
+recipes.remove(<ic2:jetpack_electric>);
+recipes.remove(<ic2:jetpack_electric:26>);
+recipes.addShaped(<ic2:jetpack_electric>, [[<techreborn:plates:32>, <techreborn:part>, <techreborn:plates:32>],[<techreborn:plates:32>, <techreborn:lithiumbatpack>.withEmptyTag(), <techreborn:plates:32>], [<ic2:te:12>, <ic2:nuclear:10>, <ic2:te:12>]]);
+
+
 
