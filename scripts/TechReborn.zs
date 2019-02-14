@@ -191,6 +191,9 @@ recipes.addShaped(<techreborn:auto_crafting_table>, [[<ic2:crafting:2>, <missing
 recipes.remove(<techreborn:industrial_sawmill>);
 recipes.addShaped(<techreborn:industrial_sawmill>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>],[<techreborn:part:5>, <techreborn:part:5>, <techreborn:part:5>], [<ic2:crafting:2>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:crafting:2>]]);
 
+//Vacuum Freezer
+recipes.remove(<techreborn:vacuum_freezer>);
+recipes.addShaped(<techreborn:vacuum_freezer>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <ic2:glass>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
 
 
