@@ -31,4 +31,7 @@ recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, [[<immersiveengineering
 recipes.remove(<immersiveengineering:toolbox>);
 recipes.addShaped(<immersiveengineering:toolbox>, [[null, null, null],[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>], [<ore:dyeRed>, <immersiveengineering:wooden_device0>, <ore:dyeRed>]]);
 
+//Flashbulb
+recipes.remove(<immersiveengineering:toolupgrade:10>);
+recipes.addShaped(<immersiveengineering:toolupgrade:10>, [[null, null, null],[<ic2:plate:5>, <ore:paneGlassColorless>, <ic2:plate:5>], [<ore:paneGlassColorless>, <immersiveengineering:material:26>, <ore:paneGlassColorless>]]);
 
