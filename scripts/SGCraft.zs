@@ -39,3 +39,9 @@ recipes.addShaped(<sgcraft:ocinterface>, [
 
 // Naquadah ore made in TR Fusion reactor
 mods.techreborn.fusionReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocoalfuel", Amount: 1000}}), <sgcraft:naquadah> *4, 10000000, -2000, 1000);
+
+// Hide unneeded SGCraft blocks/items
+mods.jei.JEI.hide(<sgcraft:naquadahblock>);
+mods.jei.JEI.hide(<sgcraft:naquadahore>);
+mods.jei.JEI.hide(<sgcraft:ic2capacitor>);
+mods.jei.JEI.hide(<sgcraft:ic2powerunit>);
