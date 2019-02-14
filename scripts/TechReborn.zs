@@ -203,6 +203,10 @@ recipes.addShaped(<techreborn:lsu_storage>, [[<minecraft:lapis_block>, <minecraf
 recipes.remove(<techreborn:chemical_reactor>);
 recipes.addShaped(<techreborn:chemical_reactor>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <ic2:te:43>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
+//Gas Turbine
+recipes.remove(<techreborn:gas_turbine>);
+recipes.addShaped(<techreborn:gas_turbine>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:te:21>, <ic2:glass>, <ic2:te:21>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>]]);
+
 
 
 
