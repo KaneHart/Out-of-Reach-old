@@ -207,6 +207,10 @@ recipes.addShaped(<techreborn:chemical_reactor>, [[<missingmaterialsmod:silver_i
 recipes.remove(<techreborn:gas_turbine>);
 recipes.addShaped(<techreborn:gas_turbine>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:te:21>, <ic2:glass>, <ic2:te:21>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
+//Semi Fluid Generator
+recipes.remove(<techreborn:semi_fluid_generator>);
+recipes.addShaped(<techreborn:semi_fluid_generator>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:glass>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
+
 
 
 
