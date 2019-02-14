@@ -139,7 +139,10 @@ mods.jei.JEI.hide(<techreborn:matter_fabricator>);
 recipes.remove(<techreborn:thermal_generator>);
 recipes.addShaped(<techreborn:thermal_generator>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:glass>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
 
-//
+//Industrial Centrifuge
+recipes.remove(<techreborn:industrial_centrifuge>);
+recipes.addShaped(<techreborn:industrial_centrifuge>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:te:45>, <missingmaterialsmod:advanced_silver_infused_steel_machine>], [<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
+
 
 
 
