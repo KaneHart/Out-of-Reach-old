@@ -28,3 +28,14 @@ recipes.addShaped(<minecraft:golden_leggings>, [[<ic2:plate:2>, <ic2:plate:2>, <
 recipes.addShaped(<minecraft:golden_chestplate>, [[<ic2:plate:2>, <minecraft:iron_chestplate>, <ic2:plate:2>],[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>], [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>]]);
 recipes.addShaped(<minecraft:golden_helmet>, [[null, null, null],[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>], [<ic2:plate:2>, <minecraft:iron_helmet>, <ic2:plate:2>]]);
 
+//Diamond Armor Revamp
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:diamond_leggings>);
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_helmet>);
+recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <railcraft:armor_boots_steel>, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[<minecraft:diamond>, <railcraft:armor_leggings_steel>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, <railcraft:armor_chestplate_steel>, <minecraft:diamond>],[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[null, null, null],[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <railcraft:armor_helmet_steel>, <minecraft:diamond>]]);
+
+
