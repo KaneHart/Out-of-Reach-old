@@ -12,5 +12,7 @@ recipes.addShaped(<nuclearcraft:part>, [[<mekanism:ingot:1>, <nuclearcraft:dust:
 recipes.remove(<nuclearcraft:part:4>);
 recipes.addShaped(<nuclearcraft:part:4>, [[<ic2:ingot:2>, <ic2:ingot:2>, null],[<mekanism:ingot:1>, <mekanism:ingot:1>, null], [<ic2:ingot:2>, <ic2:ingot:2>, null]]);
 
-
+//Electric Motor
+recipes.remove(<nuclearcraft:part:8>);
+recipes.addShaped(<nuclearcraft:part:8>, [[<ic2:ingot:5>, <ic2:ingot:5>, null],[<nuclearcraft:part:4>, <nuclearcraft:part:4>, <mekanism:ingot:1>], [<ic2:ingot:5>, <ic2:ingot:5>, null]]);
 
