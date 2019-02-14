@@ -219,5 +219,8 @@ recipes.addShaped(<techreborn:industrial_electrolyzer>, [[<missingmaterialsmod:s
 recipes.remove(<techreborn:diesel_generator>);
 recipes.addShaped(<techreborn:diesel_generator>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_ingot>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
 
+//Digital Chest
+recipes.remove(<techreborn:digital_chest>);
+recipes.addShaped(<techreborn:digital_chest>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, <techreborn:part:3>, <techreborn:plates:16>], [<techreborn:plates:16>, <techreborn:part:24>, <techreborn:plates:16>]]);
 
 
