@@ -22,3 +22,7 @@ recipes.addShaped(<xnet:antenna_base>, [[null, <ic2:ingot:5>, null],[null, <ic2:
 recipes.remove(<xnet:antenna_dish>);
 recipes.addShaped(<xnet:antenna_dish>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:7>, <minecraft:ender_pearl>, <ic2:plate:7>], [null, <ic2:ingot:5>, null]]);
 
+//XNet Network Cable
+recipes.remove(<xnet:netcable>);
+recipes.addShaped(<xnet:netcable> * 8, [[<ic2:cable:1>, <immersiveengineering:wirecoil:5>, <ic2:cable:1>],[<immersiveengineering:wirecoil:5>, <ic2:plate:2>, <immersiveengineering:wirecoil:5>], [<ic2:cable:1>, <immersiveengineering:wirecoil:5>, <ic2:cable:1>]]);
+
