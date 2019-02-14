@@ -255,8 +255,9 @@ recipes.addShaped(<techreborn:storage2:2>, [[<ore:materialStoneTool>, <techrebor
 recipes.remove(<techreborn:ironjackhammer>);
 recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:nuggets:7>, <techreborn:diamondjackhammer>.withEmptyTag(), <techreborn:nuggets:7>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
 
-//
-
+//Advanced Chainsaw
+recipes.remove(<techreborn:advancedchainsaw>);
+recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:nuggets:7>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:diamondchainsaw>.withEmptyTag(), <techreborn:upgrades>, null]]);
 
 
 
