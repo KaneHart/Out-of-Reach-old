@@ -282,6 +282,10 @@ recipes.addShaped(<techreborn:nanosaber>, [[<techreborn:plates:5>, <ic2:crafting
 //Diamond Plate
 recipes.addShaped(<techreborn:plates:5>, [[<ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>]]);
 
+//Incandescent Lamp
+recipes.remove(<techreborn:lamp_incandescent>);
+recipes.addShaped(<techreborn:lamp_incandescent>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],[<ic2:cable>, <ic2:crafting:13>, <ic2:cable>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
+
 
 
 
