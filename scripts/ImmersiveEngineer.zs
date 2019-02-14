@@ -19,3 +19,7 @@ recipes.addShaped(<immersiveengineering:faraday_suit_legs>, [[<ic2:plate:5>, <ic
 recipes.addShaped(<immersiveengineering:faraday_suit_chest>, [[<ic2:plate:5>, <minecraft:iron_chestplate>, <ic2:plate:5>],[<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>], [<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>]]);
 recipes.addShaped(<immersiveengineering:faraday_suit_head>, [[null, null, null],[<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>], [<ic2:plate:5>, <minecraft:iron_helmet>, <ic2:plate:5>]]);
 
+//Redstone Wire Coil
+recipes.remove(<immersiveengineering:wirecoil:5>);
+recipes.addShaped(<immersiveengineering:wirecoil:5> * 4, [[null, <immersiveengineering:material:20>, null],[<minecraft:redstone>, <minecraft:stick>, <minecraft:redstone>], [null, <immersiveengineering:material:20>, null]]);
+
