@@ -223,4 +223,9 @@ recipes.addShaped(<techreborn:diesel_generator>, [[<missingmaterialsmod:silver_i
 recipes.remove(<techreborn:digital_chest>);
 recipes.addShaped(<techreborn:digital_chest>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, <techreborn:part:3>, <techreborn:plates:16>], [<techreborn:plates:16>, <techreborn:part:24>, <techreborn:plates:16>]]);
 
+//Superconductor
+recipes.remove(<techreborn:part:17>);
+recipes.addShaped(<techreborn:part:17> * 4, [[<techreborn:part:7>, <techreborn:part:7>, <techreborn:part:7>],[<techreborn:ingot:15>, <techreborn:plates:16>, <techreborn:ingot:15>], [<techreborn:part>, <techreborn:part>, <techreborn:part>]]);
+
+
 
