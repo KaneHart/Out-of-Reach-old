@@ -10,4 +10,7 @@
 <sgcraft:stargatebase>.addTooltip(format.red("Not breakable! Make sure to carefully place it."));
 <sgcraft:stargatecontroller>.addTooltip(format.red("Not breakable! Make sure to carefully place it."));
 
+// Hide SGCraft Iris (potential grief death tool)
+mods.jei.JEI.hide(<sgcraft:sgirisblade>);
+mods.jei.JEI.hide(<sgcraft:sgirisupgrade>);
 
