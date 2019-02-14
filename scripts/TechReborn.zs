@@ -247,3 +247,11 @@ recipes.addShaped(<techreborn:interdimensional_su>, [[<techreborn:plates:37>, <t
 recipes.remove(<techreborn:cloakingdevice>);
 recipes.addShaped(<techreborn:cloakingdevice>, [[<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>],[<techreborn:plates:37>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:plates:37>], [<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>]]);
 
+//Iridium Reinforced Stone
+recipes.remove(<techreborn:storage2:2>);
+recipes.addShaped(<techreborn:storage2:2>, [[<ore:materialStoneTool>, <techreborn:plates:37>, null],[null, null, null], [null, null, null]]);
+
+
+
+
+
