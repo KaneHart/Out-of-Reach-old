@@ -18,9 +18,13 @@ recipes.addShaped(<nuclearcraft:part:8>, [[<ic2:ingot:5>, <ic2:ingot:5>, null],[
 
 //Removed Solar Panels
 recipes.remove(<nuclearcraft:solar_panel_elite>);
+mods.jei.JEI.hide(<nuclearcraft:solar_panel_elite>);
 recipes.remove(<nuclearcraft:solar_panel_du>);
+mods.jei.JEI.hide(<nuclearcraft:solar_panel_du>);
 recipes.remove(<nuclearcraft:solar_panel_advanced>);
+mods.jei.JEI.hide(<nuclearcraft:solar_panel_advanced>);
 recipes.remove(<nuclearcraft:solar_panel_basic>);
+mods.jei.JEI.hide(<nuclearcraft:solar_panel_basic>);
 
 
 
