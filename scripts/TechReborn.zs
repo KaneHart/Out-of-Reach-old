@@ -231,6 +231,9 @@ recipes.addShaped(<techreborn:part:17> * 4, [[<techreborn:part:7>, <techreborn:p
 recipes.remove(<techreborn:part>);
 recipes.addShaped(<techreborn:part> * 4, [[<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>],[<ic2:lapotron_crystal:*>, <techreborn:plates:37>, <ic2:lapotron_crystal:*>], [<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>]]);
 
+//Lapotronic Energy Orb
+recipes.remove(<techreborn:lapotronicorb>);
+recipes.addShaped(<techreborn:lapotronicorb>, [[<ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>],[<ic2:lapotron_crystal:*>, <techreborn:plates:37>, <ic2:lapotron_crystal:*>], [<ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>]]);
 
 
 
