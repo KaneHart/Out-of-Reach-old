@@ -36,3 +36,6 @@ recipes.addShaped(<sgcraft:ocinterface>, [
 	[<sgcraft:naquadahingot>, <sgcraft:sgcontrollercrystal>, <sgcraft:naquadahingot>],
 	[<opencomputers:material:9>, <opencomputers:case3:0>, <opencomputers:material:9>],
 	[<sgcraft:naquadahingot>, <opencomputers:material:4>, <sgcraft:naquadahingot>]]);
+
+// Naquadah ore made in TR Fusion reactor
+mods.techreborn.fusionReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocoalfuel", Amount: 1000}}), <sgcraft:naquadah> *4, 10000000, -2000, 1000);
