@@ -131,7 +131,9 @@ mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
 recipes.remove(<techreborn:wind_mill>);
 mods.jei.JEI.hide(<techreborn:wind_mill>);
 
-
+//removed Matter Fabricator
+recipes.remove(<techreborn:matter_fabricator>);
+mods.jei.JEI.hide(<techreborn:matter_fabricator>);
 
 
 
