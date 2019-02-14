@@ -279,4 +279,10 @@ recipes.addShaped(<techreborn:ironchainsaw>, [[null, <missingmaterialsmod:silver
 recipes.remove(<techreborn:nanosaber>);
 recipes.addShaped(<techreborn:nanosaber>, [[<techreborn:plates:5>, <ic2:crafting:15>, null],[<techreborn:plates:5>, <ic2:crafting:15>, null], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:lapotron_crystal>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
+//Diamond Plate
+recipes.addShaped(<techreborn:plates:5>, [[<ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:dust:5>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:dust:5>]]);
+
+
+
+
 
