@@ -23,3 +23,7 @@ recipes.addShaped(<immersiveengineering:faraday_suit_head>, [[null, null, null],
 recipes.remove(<immersiveengineering:wirecoil:5>);
 recipes.addShaped(<immersiveengineering:wirecoil:5> * 4, [[null, <immersiveengineering:material:20>, null],[<minecraft:redstone>, <minecraft:stick>, <minecraft:redstone>], [null, <immersiveengineering:material:20>, null]]);
 
+//HV Wire Coil
+recipes.remove(<immersiveengineering:wirecoil:2>);
+recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, [[<immersiveengineering:material:23>, null, <immersiveengineering:material:23>],[null, <minecraft:stick>, null], [<immersiveengineering:material:23>, null, <immersiveengineering:material:23>]]);
+
