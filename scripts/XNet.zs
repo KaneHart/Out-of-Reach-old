@@ -26,6 +26,15 @@ recipes.addShaped(<xnet:antenna_dish>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plat
 recipes.remove(<xnet:netcable>);
 recipes.addShaped(<xnet:netcable> * 8, [[<ic2:cable:1>, <immersiveengineering:wirecoil:5>, <ic2:cable:1>],[<immersiveengineering:wirecoil:5>, <ic2:plate:2>, <immersiveengineering:wirecoil:5>], [<ic2:cable:1>, <immersiveengineering:wirecoil:5>, <ic2:cable:1>]]);
 
-//Routing Network Cable
+//XNet Routing Network Cable
 recipes.remove(<xnet:netcable:4>);
 recipes.addShaped(<xnet:netcable:4> * 8, [[<immersiveengineering:wirecoil:5>, <ic2:cable:1>, <immersiveengineering:wirecoil:5>],[<ic2:cable:1>, <ic2:plate:2>, <ic2:cable:1>], [<immersiveengineering:wirecoil:5>, <ic2:cable:1>, <immersiveengineering:wirecoil:5>]]);
+
+//XNet Connector Upgrade
+recipes.remove(<xnet:connector_upgrade>);
+recipes.addShaped(<xnet:connector_upgrade>, [[<xnet:netcable>, <minecraft:ender_pearl>, null],[<minecraft:diamond>, <immersiveengineering:wirecoil:5>, null], [null, null, null]]);
+
+
+
+
+
