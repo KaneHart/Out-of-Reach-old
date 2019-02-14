@@ -263,4 +263,8 @@ recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:nuggets:7>,
 recipes.remove(<techreborn:advanceddrill>);
 recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:nuggets:7>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:upgrades>, <techreborn:diamonddrill>.withEmptyTag(), <techreborn:upgrades>]]);
 
+//Steel Jackhammer
+recipes.remove(<techreborn:steeljackhammer>);
+recipes.addShaped(<techreborn:steeljackhammer>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:re_battery:*>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:1>, <missingmaterialsmod:silver_infused_steel_ingot>], [null, <missingmaterialsmod:silver_infused_steel_ingot>, null]]);
+
 
