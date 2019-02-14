@@ -9,3 +9,13 @@ mods.jei.JEI.hide(<immersiveengineering:ore:2>);
 mods.jei.JEI.hide(<immersiveengineering:ore:1>);
 mods.jei.JEI.hide(<immersiveengineering:ore>);
 
+//Faraday Armor
+recipes.remove(<immersiveengineering:faraday_suit_feet>);
+recipes.remove(<immersiveengineering:faraday_suit_legs>);
+recipes.remove(<immersiveengineering:faraday_suit_chest>);
+recipes.remove(<immersiveengineering:faraday_suit_head>);
+recipes.addShaped(<immersiveengineering:faraday_suit_feet>, [[null, null, null],[<ic2:plate:5>, null, <ic2:plate:5>], [<ic2:plate:5>, <minecraft:iron_boots>, <ic2:plate:5>]]);
+recipes.addShaped(<immersiveengineering:faraday_suit_legs>, [[<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>],[<ic2:plate:5>, <minecraft:iron_leggings>, <ic2:plate:5>], [<ic2:plate:5>, null, <ic2:plate:5>]]);
+recipes.addShaped(<immersiveengineering:faraday_suit_chest>, [[<ic2:plate:5>, <minecraft:iron_chestplate>, <ic2:plate:5>],[<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>], [<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>]]);
+recipes.addShaped(<immersiveengineering:faraday_suit_head>, [[null, null, null],[<ic2:plate:5>, <ic2:plate:5>, <ic2:plate:5>], [<ic2:plate:5>, <minecraft:iron_helmet>, <ic2:plate:5>]]);
+
