@@ -42,4 +42,8 @@ recipes.addShaped(<xnet:advanced_connector>, [[<xnet:connector>, <minecraft:ende
 recipes.remove(<xnet:connector>);
 recipes.addShaped(<xnet:connector>, [[<minecraft:dye:4>, <ore:chest>, <minecraft:dye:4>],[<immersiveengineering:wirecoil:5>, <ic2:plate:2>, <immersiveengineering:wirecoil:5>], [<minecraft:dye:4>, <immersiveengineering:wirecoil:5>, <minecraft:dye:4>]]);
 
+//XNet Routing Connector
+recipes.remove(<xnet:connector:4>);
+recipes.addShaped(<xnet:connector:4>, [[<minecraft:dye:4>, <immersiveengineering:wirecoil:5>, <minecraft:dye:4>],[<immersiveengineering:wirecoil:5>, <xnet:connector>, <immersiveengineering:wirecoil:5>], [<minecraft:dye:4>, <immersiveengineering:wirecoil:5>, <minecraft:dye:4>]]);
+
 
