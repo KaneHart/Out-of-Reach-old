@@ -8,4 +8,9 @@ mods.jei.JEI.hide(<nuclearcraft:ore:1>);
 recipes.remove(<nuclearcraft:part>);
 recipes.addShaped(<nuclearcraft:part>, [[<mekanism:ingot:1>, <nuclearcraft:dust:8>, null],[<nuclearcraft:dust:8>, <mekanism:ingot:1>, null], [null, null, null]]);
 
+//Copper Solenoid
+recipes.remove(<nuclearcraft:part:4>);
+recipes.addShaped(<nuclearcraft:part:4>, [[<ic2:ingot:2>, <ic2:ingot:2>, null],[<mekanism:ingot:1>, <mekanism:ingot:1>, null], [<ic2:ingot:2>, <ic2:ingot:2>, null]]);
+
+
 
