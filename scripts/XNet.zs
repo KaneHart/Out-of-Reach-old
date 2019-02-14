@@ -18,3 +18,7 @@ recipes.addShaped(<xnet:antenna>, [[<minecraft:iron_bars>, <ic2:ingot:5>, <minec
 recipes.remove(<xnet:antenna_base>);
 recipes.addShaped(<xnet:antenna_base>, [[null, <ic2:ingot:5>, null],[null, <ic2:ingot:5>, null], [<ic2:ingot:5>, <ic2:resource:13>, <ic2:ingot:5>]]);
 
+//XNet Antenna Dish
+recipes.remove(<xnet:antenna_dish>);
+recipes.addShaped(<xnet:antenna_dish>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:7>, <minecraft:ender_pearl>, <ic2:plate:7>], [null, <ic2:ingot:5>, null]]);
+
