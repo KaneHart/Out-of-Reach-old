@@ -239,7 +239,7 @@ recipes.addShaped(<techreborn:lapotronicorb>, [[<ic2:lapotron_crystal:*>, <ic2:l
 recipes.remove(<techreborn:dragon_egg_syphon>);
 recipes.addShaped(<techreborn:dragon_egg_syphon>, [[<techreborn:part>, <ic2:te:*>, <techreborn:part>],[<techreborn:plates:37>, <techreborn:part:17>, <techreborn:plates:37>], [<techreborn:part>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:part>]]);
 
-//Adjustable SU
+//Interdimensional SU
 recipes.remove(<techreborn:interdimensional_su>);
 recipes.addShaped(<techreborn:interdimensional_su>, [[<techreborn:plates:37>, <techreborn:adjustable_su>.withEmptyTag(), <techreborn:plates:37>],[<techreborn:adjustable_su>.withEmptyTag(), <minecraft:ender_chest>, <techreborn:adjustable_su>.withEmptyTag()], [<techreborn:plates:37>, <techreborn:adjustable_su>.withEmptyTag(), <techreborn:plates:37>]]);
 
