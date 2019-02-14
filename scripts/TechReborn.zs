@@ -243,3 +243,7 @@ recipes.addShaped(<techreborn:dragon_egg_syphon>, [[<techreborn:part>, <ic2:te:*
 recipes.remove(<techreborn:interdimensional_su>);
 recipes.addShaped(<techreborn:interdimensional_su>, [[<techreborn:plates:37>, <techreborn:adjustable_su>.withEmptyTag(), <techreborn:plates:37>],[<techreborn:adjustable_su>.withEmptyTag(), <minecraft:ender_chest>, <techreborn:adjustable_su>.withEmptyTag()], [<techreborn:plates:37>, <techreborn:adjustable_su>.withEmptyTag(), <techreborn:plates:37>]]);
 
+//Cloaking Device 
+recipes.remove(<techreborn:cloakingdevice>);
+recipes.addShaped(<techreborn:cloakingdevice>, [[<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>],[<techreborn:plates:37>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:plates:37>], [<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>]]);
+
