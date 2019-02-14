@@ -10,3 +10,6 @@ recipes.addShapeless(<missingmaterialsmod:silver_infused_steel_ingot> * 9, [<mis
 //Silver Infused Steel Block
 recipes.addShaped(<missingmaterialsmod:silver_infused_steel_block>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>], [<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
 
+//Silver Infused Steel Machine
+recipes.addShaped(<missingmaterialsmod:silver_infused_steel_machine>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>], [<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>]]);
+
