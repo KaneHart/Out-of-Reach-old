@@ -27,3 +27,8 @@ recipes.addShaped(<immersiveengineering:wirecoil:5> * 4, [[null, <immersiveengin
 recipes.remove(<immersiveengineering:wirecoil:2>);
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, [[<immersiveengineering:material:23>, null, <immersiveengineering:material:23>],[null, <minecraft:stick>, null], [<immersiveengineering:material:23>, null, <immersiveengineering:material:23>]]);
 
+//Engineer's Toolbox
+recipes.remove(<immersiveengineering:toolbox>);
+recipes.addShaped(<immersiveengineering:toolbox>, [[null, null, null],[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>], [<ore:dyeRed>, <immersiveengineering:wooden_device0>, <ore:dyeRed>]]);
+
+
