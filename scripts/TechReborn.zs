@@ -147,6 +147,11 @@ recipes.addShaped(<techreborn:industrial_centrifuge>, [[<missingmaterialsmod:sil
 recipes.remove(<techreborn:rolling_machine>);
 recipes.addShaped(<techreborn:rolling_machine>, [[<minecraft:piston>, <ic2:crafting:2>, <minecraft:piston>],[<ic2:te:43>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:te:43>], [<minecraft:piston>, <ic2:crafting:2>, <minecraft:piston>]]);
 
+//Industrial Blast Furnace
+recipes.remove(<techreborn:industrial_blast_furnace>);
+recipes.addShaped(<techreborn:industrial_blast_furnace>, [[<ic2:crafting:2>, <techreborn:part:13>, <ic2:crafting:2>],[<techreborn:part:13>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part:13>], [<ic2:te:44>, <techreborn:part:13>, <ic2:te:44>]]);
+
+
 
 
 
