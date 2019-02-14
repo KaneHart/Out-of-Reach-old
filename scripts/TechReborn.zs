@@ -175,6 +175,8 @@ recipes.addShaped(<techreborn:machine_casing:1> * 4, [[<missingmaterialsmod:silv
 recipes.remove(<techreborn:machine_casing:2>);
 recipes.addShaped(<techreborn:machine_casing:2> * 4, [[<techreborn:plates:19>, <techreborn:plates:19>, <techreborn:plates:19>],[<techreborn:part:1>, <techreborn:machine_frame:2>, <techreborn:part:1>], [<techreborn:plates:19>, <techreborn:plates:19>, <techreborn:plates:19>]]);
 
-
+//Highly Advanced Machine Frame
+recipes.remove(<techreborn:machine_frame:2>);
+recipes.addShaped(<techreborn:machine_frame:2>, [[<techreborn:plates:19>, <techreborn:plates:30>, <techreborn:plates:19>],[<techreborn:plates:30>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:plates:30>], [<techreborn:plates:19>, <techreborn:plates:30>, <techreborn:plates:19>]]);
 
 
