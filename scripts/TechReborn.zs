@@ -235,5 +235,8 @@ recipes.addShaped(<techreborn:part> * 4, [[<ic2:crafting:2>, <techreborn:ingot:1
 recipes.remove(<techreborn:lapotronicorb>);
 recipes.addShaped(<techreborn:lapotronicorb>, [[<ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>],[<ic2:lapotron_crystal:*>, <techreborn:plates:37>, <ic2:lapotron_crystal:*>], [<ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>, <ic2:lapotron_crystal:*>]]);
 
+//Dragon Egg Syphon
+recipes.remove(<techreborn:dragon_egg_syphon>);
+recipes.addShaped(<techreborn:dragon_egg_syphon>, [[<techreborn:part>, <ic2:te:*>, <techreborn:part>],[<techreborn:plates:37>, <techreborn:part:17>, <techreborn:plates:37>], [<techreborn:part>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:part>]]);
 
 
