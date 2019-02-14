@@ -7,3 +7,6 @@ import mods.ic2.Compressor;
 //Silver Infused Steel Ingot
 recipes.addShapeless(<missingmaterialsmod:silver_infused_steel_ingot> * 9, [<missingmaterialsmod:silver_infused_steel_block>]);
 
+//Silver Infused Steel Block
+recipes.addShaped(<missingmaterialsmod:silver_infused_steel_block>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>], [<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
+
