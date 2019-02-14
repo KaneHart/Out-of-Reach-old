@@ -183,4 +183,8 @@ recipes.addShaped(<techreborn:machine_frame:2>, [[<techreborn:plates:19>, <techr
 recipes.remove(<techreborn:computer_cube>);
 recipes.addShaped(<techreborn:computer_cube>, [[<techreborn:part:3>, <techreborn:part:24>, <techreborn:part>],[<techreborn:part:24>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part:24>], [<techreborn:part>, <techreborn:part:24>, <techreborn:part:3>]]);
 
+//Auto Crafting Table
+recipes.remove(<techreborn:auto_crafting_table>);
+recipes.addShaped(<techreborn:auto_crafting_table>, [[<ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>],[<missingmaterialsmod:silver_infused_steel_plate>, <minecraft:crafting_table>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>]]);
+
 
