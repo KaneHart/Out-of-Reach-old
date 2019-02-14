@@ -28,3 +28,5 @@ MetalFormer.addRollingRecipe(<missingmaterialsmod:silver_infused_steel_plate>, <
 //Compressor Silver Steel Plate to Dense
 Compressor.addRecipe(<missingmaterialsmod:dense_silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate> * 9);
 
+//Compressor: Silver Infused Steel Ingots to Block
+Compressor.addRecipe(<missingmaterialsmod:silver_infused_steel_block>, <missingmaterialsmod:silver_infused_steel_ingot> * 9);
