@@ -271,3 +271,9 @@ recipes.addShaped(<techreborn:steeljackhammer>, [[<missingmaterialsmod:silver_in
 recipes.remove(<techreborn:irondrill>);
 recipes.addShaped(<techreborn:irondrill>, [[null, <missingmaterialsmod:silver_infused_steel_ingot>, null],[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:1>, <missingmaterialsmod:silver_infused_steel_ingot>], [<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:re_battery:*>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
 
+//Steel Chainsaw
+recipes.remove(<techreborn:ironchainsaw>);
+recipes.addShaped(<techreborn:ironchainsaw>, [[null, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:1>, <missingmaterialsmod:silver_infused_steel_ingot>], [<ic2:re_battery:*>, <missingmaterialsmod:silver_infused_steel_ingot>, null]]);
+
+
+
