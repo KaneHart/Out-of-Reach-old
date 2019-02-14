@@ -179,4 +179,8 @@ recipes.addShaped(<techreborn:machine_casing:2> * 4, [[<techreborn:plates:19>, <
 recipes.remove(<techreborn:machine_frame:2>);
 recipes.addShaped(<techreborn:machine_frame:2>, [[<techreborn:plates:19>, <techreborn:plates:30>, <techreborn:plates:19>],[<techreborn:plates:30>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:plates:30>], [<techreborn:plates:19>, <techreborn:plates:30>, <techreborn:plates:19>]]);
 
+//Computer Cube
+recipes.remove(<techreborn:computer_cube>);
+recipes.addShaped(<techreborn:computer_cube>, [[<techreborn:part:3>, <techreborn:part:24>, <techreborn:part>],[<techreborn:part:24>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part:24>], [<techreborn:part>, <techreborn:part:24>, <techreborn:part:3>]]);
+
 
