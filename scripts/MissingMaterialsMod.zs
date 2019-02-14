@@ -25,3 +25,6 @@ BlockCutter.addRecipe(<missingmaterialsmod:silver_infused_steel_plate> * 9, <mis
 //Metal Former Rolling Recipe. Silver Steel Ingot to Plate
 MetalFormer.addRollingRecipe(<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_ingot> * 1);
 
+//Compressor Silver Steel Plate to Dense
+Compressor.addRecipe(<missingmaterialsmod:dense_silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate> * 9);
+
