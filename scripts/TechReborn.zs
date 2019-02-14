@@ -275,5 +275,8 @@ recipes.addShaped(<techreborn:irondrill>, [[null, <missingmaterialsmod:silver_in
 recipes.remove(<techreborn:ironchainsaw>);
 recipes.addShaped(<techreborn:ironchainsaw>, [[null, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:1>, <missingmaterialsmod:silver_infused_steel_ingot>], [<ic2:re_battery:*>, <missingmaterialsmod:silver_infused_steel_ingot>, null]]);
 
+//Nanosaber
+recipes.remove(<techreborn:nanosaber>);
+recipes.addShaped(<techreborn:nanosaber>, [[<techreborn:plates:5>, <ic2:crafting:15>, null],[<techreborn:plates:5>, <ic2:crafting:15>, null], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:lapotron_crystal>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
 
