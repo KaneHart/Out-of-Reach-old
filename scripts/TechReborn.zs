@@ -187,4 +187,10 @@ recipes.addShaped(<techreborn:computer_cube>, [[<techreborn:part:3>, <techreborn
 recipes.remove(<techreborn:auto_crafting_table>);
 recipes.addShaped(<techreborn:auto_crafting_table>, [[<ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>],[<missingmaterialsmod:silver_infused_steel_plate>, <minecraft:crafting_table>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_plate>, <ic2:crafting:2>]]);
 
+//Industrial Sawmill
+recipes.remove(<techreborn:industrial_sawmill>);
+recipes.addShaped(<techreborn:industrial_sawmill>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>],[<techreborn:part:5>, <techreborn:part:5>, <techreborn:part:5>], [<ic2:crafting:2>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:crafting:2>]]);
+
+
+
 
