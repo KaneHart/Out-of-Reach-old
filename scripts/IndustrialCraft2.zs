@@ -82,3 +82,8 @@ recipes.addShaped(<ic2:jetpack_electric>, [[<techreborn:plates:32>, <techreborn:
 recipes.remove(<ic2:jetpack:27>);
 recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:32>, <ic2:crafting:2>, <techreborn:plates:32>],[<techreborn:plates:32>, <ic2:fluid_cell>, <techreborn:plates:32>], [<ic2:te:31>, <ic2:nuclear:10>, <ic2:te:31>]]);
 
+//Replicator recipe to remove the Teleporter
+recipes.remove(<ic2:te:63>);
+recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <ic2:glass>, <ic2:resource:11>],[<techreborn:part:1>, <techreborn:part:1>, <techreborn:part:1>], [<ic2:te:80>, <ic2:te:75>, <ic2:te:80>]]);
+
+
