@@ -155,5 +155,9 @@ recipes.addShaped(<techreborn:industrial_blast_furnace>, [[<ic2:crafting:2>, <te
 recipes.remove(<techreborn:alloy_smelter>);
 recipes.addShaped(<techreborn:alloy_smelter>, [[null, <ic2:crafting:1>, null],[<ic2:te:44>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:te:44>], [null, null, null]]);
 
+//Industrial Grinder
+recipes.remove(<techreborn:industrial_grinder>);
+recipes.addShaped(<techreborn:industrial_grinder>, [[<techreborn:industrial_electrolyzer>, <ic2:crafting:2>, <ic2:te:47>],[<techreborn:part:4>, <techreborn:part:4>, <techreborn:part:4>], [<ic2:crafting:2>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:crafting:2>]]);
+
 
 
