@@ -13,3 +13,6 @@ recipes.addShaped(<missingmaterialsmod:silver_infused_steel_block>, [[<missingma
 //Silver Infused Steel Machine
 recipes.addShaped(<missingmaterialsmod:silver_infused_steel_machine>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>], [<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
+//Advanced Silver Infused Steel Machine
+recipes.addShaped(<missingmaterialsmod:advanced_silver_infused_steel_machine>, [[<missingmaterialsmod:dense_silver_infused_steel_plate>, <ic2:crafting:15>, <missingmaterialsmod:dense_silver_infused_steel_plate>],[<ic2:crafting:3>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:crafting:3>], [<missingmaterialsmod:dense_silver_infused_steel_plate>, <ic2:crafting:15>, <missingmaterialsmod:dense_silver_infused_steel_plate>]]);
+
