@@ -19,3 +19,6 @@ recipes.addShaped(<missingmaterialsmod:advanced_silver_infused_steel_machine>, [
 //TR Blast Furnace Recipe Silver / Steel to Siler Infused Steel
 mods.techreborn.blastFurnace.addRecipe(<missingmaterialsmod:silver_infused_steel_ingot>, null, <ic2:ingot:5>, <ic2:ingot:4>, 6000, 240, 2250);
 
+//Silver Infused Steel Block Cutter to Plates Recipe
+BlockCutter.addRecipe(<missingmaterialsmod:silver_infused_steel_plate> * 9, <missingmaterialsmod:silver_infused_steel_block>, 9);
+
