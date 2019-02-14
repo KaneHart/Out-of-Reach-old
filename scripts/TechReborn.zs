@@ -211,6 +211,10 @@ recipes.addShaped(<techreborn:gas_turbine>, [[<missingmaterialsmod:silver_infuse
 recipes.remove(<techreborn:semi_fluid_generator>);
 recipes.addShaped(<techreborn:semi_fluid_generator>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:glass>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
 
+//Industrial Electrolyzer
+recipes.remove(<techreborn:industrial_electrolyzer>);
+recipes.addShaped(<techreborn:industrial_electrolyzer>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>]]);
+
 
 
 
