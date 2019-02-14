@@ -143,9 +143,9 @@ recipes.addShaped(<techreborn:thermal_generator>, [[<missingmaterialsmod:silver_
 recipes.remove(<techreborn:industrial_centrifuge>);
 recipes.addShaped(<techreborn:industrial_centrifuge>, [[<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>],[<missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:te:45>, <missingmaterialsmod:advanced_silver_infused_steel_machine>], [<missingmaterialsmod:silver_infused_steel_ingot>, <ic2:crafting:2>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
 
-
-
-
+//Rolling Machine
+recipes.remove(<techreborn:rolling_machine>);
+recipes.addShaped(<techreborn:rolling_machine>, [[<minecraft:piston>, <ic2:crafting:2>, <minecraft:piston>],[<ic2:te:43>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:te:43>], [<minecraft:piston>, <ic2:crafting:2>, <minecraft:piston>]]);
 
 
 
