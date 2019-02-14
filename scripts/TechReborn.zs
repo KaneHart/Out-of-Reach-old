@@ -195,5 +195,11 @@ recipes.addShaped(<techreborn:industrial_sawmill>, [[<missingmaterialsmod:silver
 recipes.remove(<techreborn:vacuum_freezer>);
 recipes.addShaped(<techreborn:vacuum_freezer>, [[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <ic2:glass>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <ic2:te:45>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
+//LESU Storage
+recipes.remove(<techreborn:lsu_storage>);
+recipes.addShaped(<techreborn:lsu_storage>, [[<minecraft:lapis_block>, <minecraft:lapis_block>, <minecraft:lapis_block>],[<minecraft:lapis_block>, <missingmaterialsmod:silver_infused_steel_machine>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <minecraft:lapis_block>]]);
+
+
+
 
 
