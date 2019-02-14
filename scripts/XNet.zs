@@ -14,3 +14,7 @@ recipes.addShaped(<xnet:wireless_router>, [[<minecraft:ender_pearl>, <minecraft:
 recipes.remove(<xnet:antenna>);
 recipes.addShaped(<xnet:antenna>, [[<minecraft:iron_bars>, <ic2:ingot:5>, <minecraft:iron_bars>],[<minecraft:iron_bars>, <ic2:ingot:5>, <minecraft:iron_bars>], [null, <ic2:ingot:5>, null]]);
 
+//XNet Antenna Base
+recipes.remove(<xnet:antenna_base>);
+recipes.addShaped(<xnet:antenna_base>, [[null, <ic2:ingot:5>, null],[null, <ic2:ingot:5>, null], [<ic2:ingot:5>, <ic2:resource:13>, <ic2:ingot:5>]]);
+
