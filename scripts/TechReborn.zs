@@ -229,7 +229,7 @@ recipes.addShaped(<techreborn:part:17> * 4, [[<techreborn:part:7>, <techreborn:p
 
 //Energy Flow Circuit
 recipes.remove(<techreborn:part>);
-recipes.addShaped(<techreborn:part> * 4, [[<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>],[<ic2:lapotron_crystal>, <techreborn:plates:16>, <ic2:lapotron_crystal>], [<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>]]);
+recipes.addShaped(<techreborn:part> * 4, [[<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>],[<ic2:lapotron_crystal:*>, <techreborn:plates:16>, <ic2:lapotron_crystal:*>], [<ic2:crafting:2>, <techreborn:ingot:15>, <ic2:crafting:2>]]);
 
 
 
