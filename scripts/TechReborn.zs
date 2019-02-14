@@ -151,7 +151,9 @@ recipes.addShaped(<techreborn:rolling_machine>, [[<minecraft:piston>, <ic2:craft
 recipes.remove(<techreborn:industrial_blast_furnace>);
 recipes.addShaped(<techreborn:industrial_blast_furnace>, [[<ic2:crafting:2>, <techreborn:part:13>, <ic2:crafting:2>],[<techreborn:part:13>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part:13>], [<ic2:te:44>, <techreborn:part:13>, <ic2:te:44>]]);
 
-
+//Alloy Smelter
+recipes.remove(<techreborn:alloy_smelter>);
+recipes.addShaped(<techreborn:alloy_smelter>, [[null, <ic2:crafting:1>, null],[<ic2:te:44>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:te:44>], [null, null, null]]);
 
 
 
