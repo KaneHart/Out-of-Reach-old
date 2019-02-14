@@ -19,6 +19,12 @@
             "io-type": "input",
             "item": "ic2:plate@7",
             "amount": 8
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lubricant",
+            "amount": 1000
         }
     ]
 }
