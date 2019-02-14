@@ -22,3 +22,6 @@ mods.techreborn.blastFurnace.addRecipe(<missingmaterialsmod:silver_infused_steel
 //Silver Infused Steel Block Cutter to Plates Recipe
 BlockCutter.addRecipe(<missingmaterialsmod:silver_infused_steel_plate> * 9, <missingmaterialsmod:silver_infused_steel_block>, 9);
 
+//Metal Former Rolling Recipe. Silver Steel Ingot to Plate
+MetalFormer.addRollingRecipe(<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_ingot> * 1);
+
