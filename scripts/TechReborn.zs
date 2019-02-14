@@ -290,6 +290,10 @@ recipes.addShaped(<techreborn:lamp_incandescent>, [[<ore:paneGlassColorless>, <o
 recipes.remove(<techreborn:alarm>);
 recipes.addShaped(<techreborn:alarm>, [[<minecraft:iron_ingot>, <ic2:cable>, <minecraft:iron_ingot>],[<ic2:cable>, <minecraft:redstone_block>, <ic2:cable>], [<minecraft:iron_ingot>, <ic2:cable>, <minecraft:iron_ingot>]]);
 
+//LED Lamp
+recipes.remove(<techreborn:lamp_led>);
+recipes.addShaped(<techreborn:lamp_led>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],[<ic2:cable:4>, <minecraft:glowstone_dust>, <ic2:cable:4>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
+
 
 
 
