@@ -286,6 +286,10 @@ recipes.addShaped(<techreborn:plates:5>, [[<ic2:dust:5>, <missingmaterialsmod:si
 recipes.remove(<techreborn:lamp_incandescent>);
 recipes.addShaped(<techreborn:lamp_incandescent>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],[<ic2:cable>, <ic2:crafting:13>, <ic2:cable>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
 
+//Alarm
+recipes.remove(<techreborn:alarm>);
+recipes.addShaped(<techreborn:alarm>, [[<minecraft:iron_ingot>, <ic2:cable>, <minecraft:iron_ingot>],[<ic2:cable>, <minecraft:redstone_block>, <ic2:cable>], [<minecraft:iron_ingot>, <ic2:cable>, <minecraft:iron_ingot>]]);
+
 
 
 
