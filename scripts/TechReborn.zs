@@ -251,6 +251,11 @@ recipes.addShaped(<techreborn:cloakingdevice>, [[<techreborn:ingot:3>, <techrebo
 recipes.remove(<techreborn:storage2:2>);
 recipes.addShaped(<techreborn:storage2:2>, [[<ore:materialStoneTool>, <techreborn:plates:37>, null],[null, null, null], [null, null, null]]);
 
+//Advanced Jackhammer
+recipes.remove(<techreborn:ironjackhammer>);
+recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:nuggets:7>, <techreborn:diamondjackhammer>.withEmptyTag(), <techreborn:nuggets:7>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
+
+//
 
 
 
