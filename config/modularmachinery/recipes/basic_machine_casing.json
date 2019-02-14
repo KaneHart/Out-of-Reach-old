@@ -1,7 +1,7 @@
 {
     "machine": "basic_machine_casing_factory",
     "registryName": "basic_machine_casing",
-    "recipeTime": 12000,
+    "recipeTime": 2400,
     "requirements": [
         {
             "type": "energy",
