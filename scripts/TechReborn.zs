@@ -135,6 +135,15 @@ mods.jei.JEI.hide(<techreborn:wind_mill>);
 recipes.remove(<techreborn:matter_fabricator>);
 mods.jei.JEI.hide(<techreborn:matter_fabricator>);
 
+//Thermal Generator
+recipes.remove(<techreborn:thermal_generator>);
+recipes.addShaped(<techreborn:thermal_generator>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, <ic2:glass>, <missingmaterialsmod:silver_infused_steel_plate>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
+
+//
+
+
+
+
 
 
 
