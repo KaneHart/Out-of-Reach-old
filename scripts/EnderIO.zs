@@ -39,3 +39,11 @@ mods.jei.JEI.hide(<enderio:item_dark_steel_boots>);
 mods.jei.JEI.hide(<enderio:item_dark_steel_leggings>);
 mods.jei.JEI.hide(<enderio:item_dark_steel_chestplate>);
 mods.jei.JEI.hide(<enderio:item_dark_steel_helmet>);
+
+//Removed Rod of Return & Travel Staff
+recipes.remove(<enderio:item_rod_of_return>);
+recipes.remove(<enderio:item_travel_staff>);
+
+mods.jei.JEI.hide(<enderio:item_rod_of_return>);
+mods.jei.JEI.hide(<enderio:item_travel_staff>);
+
