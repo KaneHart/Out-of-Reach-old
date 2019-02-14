@@ -45,3 +45,7 @@ mods.jei.JEI.hide(<sgcraft:naquadahblock>);
 mods.jei.JEI.hide(<sgcraft:naquadahore>);
 mods.jei.JEI.hide(<sgcraft:ic2capacitor>);
 mods.jei.JEI.hide(<sgcraft:ic2powerunit>);
+
+// Create Naquadah ingot
+mods.techreborn.alloySmelter.addRecipe(<sgcraft:naquadahingot>, <sgcraft:naquadah>, <techreborn:ingot:17>, 1000, 200);
+
