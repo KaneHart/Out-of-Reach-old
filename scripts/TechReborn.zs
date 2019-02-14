@@ -163,5 +163,9 @@ recipes.addShaped(<techreborn:industrial_grinder>, [[<techreborn:industrial_elec
 recipes.remove(<techreborn:implosion_compressor>);
 recipes.addShaped(<techreborn:implosion_compressor>, [[<techreborn:ingot:20>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:ingot:20>],[<ic2:crafting:2>, <ic2:te:43>, <ic2:crafting:2>], [<techreborn:ingot:20>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:ingot:20>]]);
 
+//Machine Casing
+recipes.remove(<techreborn:machine_casing>);
+recipes.addShaped(<techreborn:machine_casing> * 4, [[<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>],[<ic2:crafting:1>, <missingmaterialsmod:silver_infused_steel_machine>, <ic2:crafting:1>], [<missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>, <missingmaterialsmod:silver_infused_steel_ingot>]]);
+
 
 
