@@ -1,0 +1,36 @@
+{
+    "machine": "silver_infused_steel_alloy_smelter",
+    "registryName": "silver_infused_steel_alloy",
+    "recipeTime": 2400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "missingmaterialsmod:silver_infused_steel_ingot",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:plate@7",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@27",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lubricant",
+            "amount": 1
+        }
+    ]
+}
