@@ -1,7 +1,7 @@
 {
     "registryname": "silver_infused_steel_alloy_smelter",
     "localizedname": "Silver Infused Steel Alloy Smelter",
-    "color": "696e6e",
+    "color": "b3b6b7",
     "parts": [
         {
             "x": -1,
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "modularmachinery:blockfluidinputhatch@0"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "modularmachinery:blockenergyinputhatch@2"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
+                "modularmachinery:blockenergyinputhatch@2"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "modularmachinery:blockenergyinputhatch@2"
             ]
         },
         {
