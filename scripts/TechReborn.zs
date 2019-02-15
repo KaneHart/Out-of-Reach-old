@@ -294,7 +294,8 @@ recipes.addShaped(<techreborn:alarm>, [[<minecraft:iron_ingot>, <ic2:cable>, <mi
 recipes.remove(<techreborn:lamp_led>);
 recipes.addShaped(<techreborn:lamp_led>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],[<ic2:cable:4>, <minecraft:glowstone_dust>, <ic2:cable:4>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
 
-
+//Tech Reborn Machine Frame to IC2 Machine Casing Recipe
+recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
 
 
 
