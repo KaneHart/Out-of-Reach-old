@@ -88,3 +88,14 @@ recipes.addShaped(<ic2:quantum_boots>, [[<sgcraft:naquadahingot>, null, <sgcraft
 recipes.remove(<ic2:quantum_helmet>);
 recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet:*>, <ic2:glass>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<sgcraft:naquadahingot>, <ic2:hazmat_helmet>, <sgcraft:naquadahingot>]]);
 
+//Nerfed Hazmat Suit
+recipes.remove(<ic2:static_boots>);
+recipes.addShaped(<ic2:static_boots>, [[<ic2:ingot:5>, null, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:rubber_boots>, <ic2:ingot:5>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]]);
+recipes.remove(<ic2:rubber_boots>);
+recipes.addShaped(<ic2:rubber_boots>, [[<ic2:crafting>, null, <ic2:crafting>],[<ic2:crafting>, <minecraft:diamond_boots>, <ic2:crafting>], [<ic2:crafting>, <ore:blockWool>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_chestplate>);
+recipes.addShaped(<ic2:hazmat_chestplate>, [[<ic2:crafting>, <minecraft:diamond_chestplate>, <ic2:crafting>],[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_helmet>);
+recipes.addShaped(<ic2:hazmat_helmet>, [[null, <minecraft:diamond_helmet>, null],[<ic2:crafting>, <ore:blockGlassColorless>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_leggings>);
+recipes.addShaped(<ic2:hazmat_leggings>, [[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>],[<ic2:crafting>, <minecraft:diamond_leggings>, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
