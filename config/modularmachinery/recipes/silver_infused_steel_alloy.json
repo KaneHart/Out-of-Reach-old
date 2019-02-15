@@ -29,8 +29,8 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "ic2uu_matter",
-            "amount": 10
+            "fluid": "ic2hot_coolant",
+            "amount": 1000
         }
     ]
 }
