@@ -16,5 +16,8 @@ recipes.addShaped(<advancedrocketry:spacehelmet>, [[null, null, null],[<techrebo
 
 //Machine Structure
 recipes.remove(<libvulpes:structuremachine>);
-recipes.addShaped(<libvulpes:structuremachine>, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:3>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[<techreborn:ingot:3>, <techreborn:part>, <techreborn:ingot:3>], [<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:3>, <missingmaterialsmod:steel_iridium_alloy_ingot>]]);
+recipes.addShaped(<libvulpes:structuremachine>, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:3>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[<techreborn:ingot:3>, <missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:3>], [<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:3>, <missingmaterialsmod:steel_iridium_alloy_ingot>]]);
 
+//Advance Machine Structure
+recipes.remove(<libvulpes:advstructuremachine>);
+recipes.addShaped(<libvulpes:advstructuremachine>, [[<libvulpes:productrod:7>, <libvulpes:productrod:10>, <libvulpes:productrod:7>],[<libvulpes:productrod:10>, <libvulpes:structuremachine>, <libvulpes:productrod:10>], [<libvulpes:productrod:7>, <libvulpes:productrod:10>, <libvulpes:productrod:7>]]);
