@@ -169,7 +169,7 @@ recipes.addShaped(<techreborn:machine_casing> * 4, [[<missingmaterialsmod:silver
 
 //Reinforced Machine Casing
 recipes.remove(<techreborn:machine_casing:1>);
-recipes.addShaped(<techreborn:machine_casing:1> * 4, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <ic2:resource:13>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>]]);
+recipes.addShaped(<techreborn:machine_casing:1> * 4, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<ic2:crafting:2>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <ic2:crafting:2>], [<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>]]);
 
 //Advanced Machine Casing
 recipes.remove(<techreborn:machine_casing:2>);
