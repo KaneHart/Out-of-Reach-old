@@ -12,7 +12,7 @@ recipes.addShaped(<xnet:wireless_router>, [[<minecraft:ender_eye>, <opencomputer
 
 //XNet Antenna
 recipes.remove(<xnet:antenna>);
-recipes.addShaped(<xnet:antenna>, [[<minecraft:iron_bars>, <ic2:ingot:5>, <minecraft:iron_bars>],[<minecraft:iron_bars>, <ic2:ingot:5>, <minecraft:iron_bars>], [null, <ic2:ingot:5>, null]]);
+recipes.addShaped(<xnet:antenna>, [[<minecraft:iron_bars>, <techreborn:ingot:17>, <minecraft:iron_bars>],[<minecraft:iron_bars>, <techreborn:ingot:17>, <minecraft:iron_bars>], [null, <techreborn:ingot:17>, null]]);
 
 //XNet Antenna Base
 recipes.remove(<xnet:antenna_base>);
