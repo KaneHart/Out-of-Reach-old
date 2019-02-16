@@ -304,3 +304,7 @@ recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>.withE
 //Charge-O-Mat
 recipes.remove(<techreborn:charge_o_mat>);
 recipes.addShaped(<techreborn:charge_o_mat>, [[<techreborn:part>, <ic2:energy_crystal:*>, <techreborn:part>],[<ore:chest>, <techreborn:lapotronicorb>.withEmptyTag(), <ore:chest>], [<techreborn:part>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part>]]);
+
+//Fusion Control Computer
+recipes.remove(<techreborn:fusion_control_computer>);
+recipes.addShaped(<techreborn:fusion_control_computer>, [[<techreborn:part>, <techreborn:part>, <techreborn:part>],[<ic2:energy_crystal>, <techreborn:fusion_coil>, <ic2:energy_crystal>], [<techreborn:part>, <techreborn:part>, <techreborn:part>]]);
