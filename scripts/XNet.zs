@@ -20,7 +20,7 @@ recipes.addShaped(<xnet:antenna_base>, [[null, <techreborn:ingot:17>, null],[nul
 
 //XNet Antenna Dish
 recipes.remove(<xnet:antenna_dish>);
-recipes.addShaped(<xnet:antenna_dish>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:7>, <minecraft:ender_pearl>, <ic2:plate:7>], [null, <ic2:ingot:5>, null]]);
+recipes.addShaped(<xnet:antenna_dish>, [[<missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:silver_infused_steel_plate>],[<missingmaterialsmod:silver_infused_steel_plate>, <minecraft:ender_eye>, <missingmaterialsmod:silver_infused_steel_plate>], [null, <techreborn:ingot:17>, null]]);
 
 //XNet Network Cable
 recipes.remove(<xnet:netcable>);
