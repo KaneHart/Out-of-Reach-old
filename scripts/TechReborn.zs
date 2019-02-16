@@ -301,3 +301,6 @@ recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
 recipes.remove(<techreborn:adjustable_su>);
 recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()],[<techreborn:lapotronicorb>.withEmptyTag(), <ic2:energy_crystal:*>, <techreborn:lapotronicorb>.withEmptyTag()], [<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()]]);
 
+//Charge-O-Mat
+recipes.remove(<techreborn:charge_o_mat>);
+recipes.addShaped(<techreborn:charge_o_mat>, [[<techreborn:part>, <ic2:energy_crystal:*>, <techreborn:part>],[<ore:chest>, <techreborn:lapotronicorb>.withEmptyTag(), <ore:chest>], [<techreborn:part>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:part>]]);
