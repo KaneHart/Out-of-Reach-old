@@ -6,7 +6,7 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 4096
+            "energyPerTick": 16384
         },
         {
             "type": "item",
@@ -23,13 +23,13 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "ic2:ingot@4",
+            "item": "techreborn:ingot@7",
             "amount": 1
         },
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "ic2hot_coolant",
+            "fluid": "fluidheliumplasma",
             "amount": 1000
         }
     ]
