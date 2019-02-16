@@ -1,0 +1,36 @@
+{
+    "machine": "steel_iridium_alloy_smelter",
+    "registryName": "steel_iridium_alloy_ingot",
+    "recipeTime": 2400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "missingmaterialsmod:steel_iridium_alloy_ingot",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:ingot@5",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:ingot@4",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ic2hot_coolant",
+            "amount": 1000
+        }
+    ]
+}
