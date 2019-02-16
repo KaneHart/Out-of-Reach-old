@@ -8,7 +8,7 @@ recipes.addShaped(<xnet:router>, [[<immersiveengineering:wooden_device0:7>, <min
 
 //XNet Wireless Router
 recipes.remove(<xnet:wireless_router>);
-recipes.addShaped(<xnet:wireless_router>, [[<minecraft:ender_pearl>, <minecraft:comparator>, <minecraft:ender_pearl>],[<immersiveengineering:wirecoil:5>, <ic2:resource:13>, <immersiveengineering:wirecoil:5>], [<minecraft:ender_pearl>, <immersiveengineering:wirecoil:5>, <minecraft:ender_pearl>]]);
+recipes.addShaped(<xnet:wireless_router>, [[<minecraft:ender_eye>, <opencomputers:card:5>, <minecraft:ender_eye>],[<immersiveengineering:wirecoil:5>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <immersiveengineering:wirecoil:5>], [<minecraft:ender_eye>, <immersiveengineering:wirecoil:5>, <minecraft:ender_eye>]]);
 
 //XNet Antenna
 recipes.remove(<xnet:antenna>);
