@@ -1,0 +1,3 @@
+//Machine Case
+recipes.remove(<teslacorelib:machine_case>);
+recipes.addShaped(<teslacorelib:machine_case>, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:17>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[<techreborn:ingot:17>, <libvulpes:advstructuremachine>, <techreborn:ingot:17>], [<missingmaterialsmod:steel_iridium_alloy_ingot>, <techreborn:ingot:17>, <missingmaterialsmod:steel_iridium_alloy_ingot>]]);
