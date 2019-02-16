@@ -297,5 +297,7 @@ recipes.addShaped(<techreborn:lamp_led>, [[<ore:paneGlassColorless>, <ore:paneGl
 //Tech Reborn Machine Frame to IC2 Machine Casing Recipe
 recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
 
-
+//Adjustable SU
+recipes.remove(<techreborn:adjustable_su>);
+recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()],[<techreborn:lapotronicorb>.withEmptyTag(), <ic2:energy_crystal:*>, <techreborn:lapotronicorb>.withEmptyTag()], [<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()]]);
 
