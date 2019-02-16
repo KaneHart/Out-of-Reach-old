@@ -26,5 +26,7 @@ mods.jei.JEI.hide(<nuclearcraft:solar_panel_advanced>);
 recipes.remove(<nuclearcraft:solar_panel_basic>);
 mods.jei.JEI.hide(<nuclearcraft:solar_panel_basic>);
 
-
+//Machine Chassis
+recipes.remove(<nuclearcraft:part:10>);
+recipes.addShaped(<nuclearcraft:part:10>, [[<mekanism:ingot:1>, <ic2:ingot:3>, <mekanism:ingot:1>],[<ic2:ingot:3>, <mekanism:basicblock:8>, <ic2:ingot:3>], [<mekanism:ingot:1>, <ic2:ingot:3>, <mekanism:ingot:1>]]);
 
