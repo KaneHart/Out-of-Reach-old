@@ -16,7 +16,7 @@ recipes.addShaped(<xnet:antenna>, [[<minecraft:iron_bars>, <techreborn:ingot:17>
 
 //XNet Antenna Base
 recipes.remove(<xnet:antenna_base>);
-recipes.addShaped(<xnet:antenna_base>, [[null, <ic2:ingot:5>, null],[null, <ic2:ingot:5>, null], [<ic2:ingot:5>, <ic2:resource:13>, <ic2:ingot:5>]]);
+recipes.addShaped(<xnet:antenna_base>, [[null, <techreborn:ingot:17>, null],[null, <techreborn:ingot:17>, null], [<techreborn:ingot:17>, <missingmaterialsmod:advanced_silver_infused_steel_machine>, <techreborn:ingot:17>]]);
 
 //XNet Antenna Dish
 recipes.remove(<xnet:antenna_dish>);
