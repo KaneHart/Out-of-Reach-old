@@ -45,3 +45,17 @@ recipes.remove(<forestry:habitat_screen>);
 mods.jei.JEI.hide(<forestry:habitat_screen>);
 recipes.remove(<forestry:portable_alyzer>);
 mods.jei.JEI.hide(<forestry:portable_alyzer>);
+
+//Removed some Materials from bee's
+recipes.remove(<forestry:crafting_material:5>);
+mods.jei.JEI.hide(<forestry:crafting_material:5>);
+recipes.remove(<forestry:crafting_material:3>);
+mods.jei.JEI.hide(<forestry:crafting_material:3>);
+recipes.remove(<forestry:crafting_material:2>);
+mods.jei.JEI.hide(<forestry:crafting_material:2>);
+recipes.remove(<forestry:crafting_material:1>);
+mods.jei.JEI.hide(<forestry:crafting_material:1>);
+recipes.remove(<forestry:crafting_material>);
+mods.jei.JEI.hide(<forestry:crafting_material>);
+
+
