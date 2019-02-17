@@ -10,3 +10,12 @@ mods.jei.JEI.hide(<forestry:capsule:*>);
 recipes.remove(<forestry:can:*>);
 mods.jei.JEI.hide(<forestry:can:*>);
 
+//removed foods
+recipes.remove(<forestry:fruits:6>);
+recipes.remove(<forestry:fruits:5>);
+recipes.remove(<forestry:fruits:4>);
+recipes.remove(<forestry:fruits:3>);
+recipes.remove(<forestry:fruits:2>);
+recipes.remove(<forestry:fruits:1>);
+recipes.remove(<forestry:fruits>);
+
