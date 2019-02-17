@@ -30,7 +30,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "ic2hot_coolant",
-            "amount": 1000
+            "amount": 100
         }
     ]
 }
