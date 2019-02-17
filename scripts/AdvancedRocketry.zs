@@ -41,3 +41,9 @@ recipes.addShaped(<advancedrocketry:ic:4>, [[<ic2:crafting:5>, <techreborn:plate
 //Item IO Circuit Board
 recipes.remove(<advancedrocketry:ic:5>);
 recipes.addShaped(<advancedrocketry:ic:5>, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})], [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:plate:3>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]]);
+
+//Launch Pad
+recipes.remove(<advancedrocketry:launchpad>);
+recipes.addShaped(<advancedrocketry:launchpad> * 2, [[<libvulpes:structuremachine>, <ore:dyeBlack>, null],[<minecraft:dye:11>, <advancedrocketry:concrete>, null], [null, null, null]]);
+
+
