@@ -29,3 +29,8 @@ recipes.addShaped(<advancedrocketry:blastbrick> * 8, [[<libvulpes:structuremachi
 //User Interface
 recipes.remove(<advancedrocketry:misc>);
 recipes.addShaped(<advancedrocketry:misc> * 4, [[<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>],[<minecraft:dye:10>, <libvulpes:structuremachine>, <minecraft:dye:10>], [<minecraft:glowstone_dust>, <minecraft:glass_pane>, <minecraft:glowstone_dust>]]);
+
+//Control Circuit Board
+recipes.remove(<advancedrocketry:ic:3>);
+recipes.addShaped(<advancedrocketry:ic:3> * 4, [[<immersiveengineering:wirecoil:5>, <techreborn:plates:5>, <immersiveengineering:wirecoil:5>],[<immersiveengineering:material:20>, <ic2:crafting:2>, <immersiveengineering:material:20>], [<immersiveengineering:material:20>, <ic2:plate:3>, <immersiveengineering:material:20>]]);
+
