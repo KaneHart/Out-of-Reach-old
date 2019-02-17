@@ -55,7 +55,7 @@
 	</Recipe>
 	<Recipe timeRequired="3000" power ="20">
 		<input>
-			<itemStack>advanced_solar_panels:crafting 1 10</itemStack>
+			<itemStack>techreborn:ingot 1 7</itemStack>
 			<itemStack>techreborn:ingot 1 14</itemStack>
 		</input>
 		<output>
