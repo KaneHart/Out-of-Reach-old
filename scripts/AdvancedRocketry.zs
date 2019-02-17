@@ -32,8 +32,12 @@ recipes.addShaped(<advancedrocketry:misc> * 4, [[<immersiveengineering:wirecoil:
 
 //Control Circuit Board
 recipes.remove(<advancedrocketry:ic:3>);
-recipes.addShaped(<advancedrocketry:ic:3> * 4, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable>, <ic2:crafting:2>, <ic2:cable>], [<ic2:cable>, <ic2:plate:3>, <ic2:cable>]]);
+recipes.addShaped(<advancedrocketry:ic:3>, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:plate:3>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]]);
 
 //Item IO Circuit Board
 recipes.remove(<advancedrocketry:ic:4>);
-recipes.addShaped(<advancedrocketry:ic:4> * 4, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable:2>, <ic2:crafting:2>, <ic2:cable:2>], [<ic2:cable:2>, <ic2:plate:3>, <ic2:cable:2>]]);
+recipes.addShaped(<advancedrocketry:ic:4>, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})], [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:plate:3>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]]);
+
+//Item IO Circuit Board
+recipes.remove(<advancedrocketry:ic:5>);
+recipes.addShaped(<advancedrocketry:ic:5>, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})], [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:plate:3>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]]);
