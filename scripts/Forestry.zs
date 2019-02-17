@@ -12,16 +12,25 @@ mods.jei.JEI.hide(<forestry:can:*>);
 
 //removed foods
 recipes.remove(<forestry:fruits:6>);
+mods.jei.JEI.hide(<forestry:fruits:6>);
 recipes.remove(<forestry:fruits:5>);
+mods.jei.JEI.hide(<forestry:fruits:5>);
 recipes.remove(<forestry:fruits:4>);
+mods.jei.JEI.hide(<forestry:fruits:4>);
 recipes.remove(<forestry:fruits:3>);
+mods.jei.JEI.hide(<forestry:fruits:3>);
 recipes.remove(<forestry:fruits:2>);
+mods.jei.JEI.hide(<forestry:fruits:2>);
 recipes.remove(<forestry:fruits:1>);
+mods.jei.JEI.hide(<forestry:fruits:1>);
 recipes.remove(<forestry:fruits>);
+mods.jei.JEI.hide(<forestry:fruits>);
 
 //removed some wax crap
 recipes.remove(<forestry:refractory_wax>);
+mods.jei.JEI.hide(<forestry:refractory_wax>);
 recipes.remove(<forestry:beeswax>);
+mods.jei.JEI.hide(<forestry:beeswax>);
 
 //removed rainmaker and charge
 recipes.remove(<forestry:crafting_material:4>);
