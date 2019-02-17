@@ -21,3 +21,7 @@ recipes.addShaped(<libvulpes:structuremachine>, [[<missingmaterialsmod:steel_iri
 //Advance Machine Structure
 recipes.remove(<libvulpes:advstructuremachine>);
 recipes.addShaped(<libvulpes:advstructuremachine>, [[<libvulpes:productrod:7>, <libvulpes:productrod:10>, <libvulpes:productrod:7>],[<libvulpes:productrod:10>, <libvulpes:structuremachine>, <libvulpes:productrod:10>], [<libvulpes:productrod:7>, <libvulpes:productrod:10>, <libvulpes:productrod:7>]]);
+
+//HeatProof Brick
+recipes.remove(<advancedrocketry:blastbrick>);
+recipes.addShaped(<advancedrocketry:blastbrick> * 8, [[<libvulpes:structuremachine>, <minecraft:brick_block>, <minecraft:magma>],[null, null, null], [null, null, null]]);
