@@ -37,3 +37,11 @@ recipes.remove(<forestry:crafting_material:4>);
 mods.jei.JEI.hide(<forestry:crafting_material:4>);
 recipes.remove(<forestry:rainmaker>);
 mods.jei.JEI.hide(<forestry:rainmaker>);
+
+//removed analyzer, habitat screen, portable alyzer
+recipes.remove(<forestry:analyzer>);
+mods.jei.JEI.hide(<forestry:analyzer>);
+recipes.remove(<forestry:habitat_screen>);
+mods.jei.JEI.hide(<forestry:habitat_screen>);
+recipes.remove(<forestry:portable_alyzer>);
+mods.jei.JEI.hide(<forestry:portable_alyzer>);
