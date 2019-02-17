@@ -90,4 +90,5 @@ recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <ic2:glass>, <ic2:resource:1
 recipes.remove(<ic2:te:61>);
 recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>],[<techreborn:machine_casing:2>, <techreborn:adjustable_su>, <techreborn:machine_casing:2>], [<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>]]);
 
-
+//Added a tooltip for those who don't know how Reinforced stone works. 
+<ic2:resource:11>.addTooltip(format.aqua("Spray CF Foam onto Reinforced Iron Scaffold then let dry."));
