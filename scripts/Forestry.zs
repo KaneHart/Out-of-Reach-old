@@ -19,3 +19,6 @@ recipes.remove(<forestry:fruits:2>);
 recipes.remove(<forestry:fruits:1>);
 recipes.remove(<forestry:fruits>);
 
+//removed some wax crap
+recipes.remove(<forestry:refractory_wax>);
+recipes.remove(<forestry:beeswax>);
