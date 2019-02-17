@@ -32,5 +32,5 @@ recipes.addShaped(<advancedrocketry:misc> * 4, [[<immersiveengineering:wirecoil:
 
 //Control Circuit Board
 recipes.remove(<advancedrocketry:ic:3>);
-recipes.addShaped(<advancedrocketry:ic:3> * 4, [[<immersiveengineering:wirecoil:5>, <techreborn:plates:5>, <immersiveengineering:wirecoil:5>],[<immersiveengineering:material:20>, <ic2:crafting:2>, <immersiveengineering:material:20>], [<immersiveengineering:material:20>, <ic2:plate:3>, <immersiveengineering:material:20>]]);
+recipes.addShaped(<advancedrocketry:ic:3> * 4, [[<ic2:crafting:5>, <techreborn:plates:5>, <ic2:crafting:5>],[<ic2:cable>, <ic2:crafting:2>, <ic2:cable>], [<ic2:cable>, <ic2:plate:3>, <ic2:cable>]]);
 
