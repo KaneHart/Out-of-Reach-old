@@ -58,4 +58,8 @@ mods.jei.JEI.hide(<forestry:crafting_material:1>);
 recipes.remove(<forestry:crafting_material>);
 mods.jei.JEI.hide(<forestry:crafting_material>);
 
-
+//Removed Habitat Former & Camouflaged Paneling
+recipes.remove(<forestry:crafting_material:7>);
+mods.jei.JEI.hide(<forestry:crafting_material:7>);
+recipes.remove(<forestry:habitat_former>);
+mods.jei.JEI.hide(<forestry:habitat_former>);
