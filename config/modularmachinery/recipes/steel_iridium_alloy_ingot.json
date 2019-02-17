@@ -30,7 +30,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "fluidheliumplasma",
-            "amount": 100
+            "amount": 50
         }
     ]
 }
