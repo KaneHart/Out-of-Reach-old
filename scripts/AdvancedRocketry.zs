@@ -25,3 +25,7 @@ recipes.addShaped(<libvulpes:advstructuremachine>, [[<libvulpes:productrod:7>, <
 //HeatProof Brick
 recipes.remove(<advancedrocketry:blastbrick>);
 recipes.addShaped(<advancedrocketry:blastbrick> * 8, [[<libvulpes:structuremachine>, <minecraft:brick_block>, <minecraft:magma>],[null, null, null], [null, null, null]]);
+
+//User Interface
+recipes.remove(<advancedrocketry:misc>);
+recipes.addShaped(<advancedrocketry:misc> * 4, [[<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>],[<minecraft:dye:10>, <libvulpes:structuremachine>, <minecraft:dye:10>], [<minecraft:glowstone_dust>, <minecraft:glass_pane>, <minecraft:glowstone_dust>]]);
