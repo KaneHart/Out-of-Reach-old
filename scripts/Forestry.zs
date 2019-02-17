@@ -22,3 +22,9 @@ recipes.remove(<forestry:fruits>);
 //removed some wax crap
 recipes.remove(<forestry:refractory_wax>);
 recipes.remove(<forestry:beeswax>);
+
+//removed rainmaker and charge
+recipes.remove(<forestry:crafting_material:4>);
+mods.jei.JEI.hide(<forestry:crafting_material:4>);
+recipes.remove(<forestry:rainmaker>);
+mods.jei.JEI.hide(<forestry:rainmaker>);
