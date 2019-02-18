@@ -46,4 +46,7 @@ recipes.addShaped(<advancedrocketry:ic:5>, [[<ic2:crafting:5>, <techreborn:plate
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.addShaped(<advancedrocketry:launchpad> * 2, [[<libvulpes:structuremachine>, <ore:dyeBlack>, null],[<minecraft:dye:11>, <advancedrocketry:concrete>, null], [null, null, null]]);
 
+//Small Battery
+recipes.remove(<libvulpes:battery>);
+recipes.addShaped(<libvulpes:battery> * 16, [[null, <missingmaterialsmod:steel_iridium_alloy_ingot>, null],[<ic2:plate:17>, <minecraft:redstone_block>, <ic2:plate:17>], [<ic2:plate:17>, <minecraft:redstone_block>, <ic2:plate:17>]]);
 
