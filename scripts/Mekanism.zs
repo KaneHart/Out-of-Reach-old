@@ -17,3 +17,7 @@ recipes.addShaped(<mekanism:machineblock2:11>, [[<minecraft:redstone>, <mekanism
 //Dynamic Tank
 recipes.remove(<mekanism:basicblock:9>);
 recipes.addShaped(<mekanism:basicblock:9> * 4, [[null, <mekanism:ingot:1>, null],[<mekanism:ingot:1>, <minecraft:bucket>, <mekanism:ingot:1>], [null, <mekanism:ingot:1>, null]]);
+
+//Structural Glass
+recipes.remove(<mekanism:basicblock:10>);
+recipes.addShaped(<mekanism:basicblock:10> * 4, [[null, <mekanism:ingot:1>, null],[<mekanism:ingot:1>, <ore:blockGlassColorless>, <mekanism:ingot:1>], [null, <mekanism:ingot:1>, null]]);
