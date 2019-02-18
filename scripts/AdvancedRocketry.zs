@@ -61,3 +61,7 @@ recipes.addShaped(<libvulpes:coalgenerator>, [[null, <libvulpes:battery:1>, null
 //Basic Lens
 recipes.remove(<advancedrocketry:lens>);
 recipes.addShaped(<advancedrocketry:lens>, [[null, <appliedenergistics2:quartz_glass>, null],[<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], [null, <appliedenergistics2:quartz_glass>, null]]);
+
+//Steel Fan
+recipes.remove(<libvulpes:productfan:6>);
+recipes.addShaped(<libvulpes:productfan:6>, [[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>],[null, <missingmaterialsmod:steel_iridium_alloy_ingot>, null], [<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>]]);
