@@ -18,9 +18,14 @@ mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 3, mekData: {}}));
 recipes.remove(<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}));
 mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}));
 
-//Basic Fluid Tank
+//Fluid Tank's
 recipes.remove(<mekanism:machineblock2:11>);
-recipes.addShaped(<mekanism:machineblock2:11>, [[<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],[<mekanism:ingot:1>, null, <mekanism:ingot:1>], [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>]]);
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 0, mekData: {}}), [[<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],[<mekanism:ingot:1>, null, <mekanism:ingot:1>], [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>]]);
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}), [[<mekanism:enrichedalloy>, <mekanism:ingot:1>, <mekanism:enrichedalloy>],[<mekanism:ingot:1>, <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {}}), <mekanism:ingot:1>], [<mekanism:enrichedalloy>, <mekanism:ingot:1>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}), [[<mekanism:reinforcedalloy>, <mekanism:ingot:1>, <mekanism:reinforcedalloy>],[<mekanism:ingot:1>, <mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}), <mekanism:ingot:1>], [<mekanism:reinforcedalloy>, <mekanism:ingot:1>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}}), [[<mekanism:atomicalloy>, <mekanism:ingot:1>, <mekanism:atomicalloy>],[<mekanism:ingot:1>, <mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}), <mekanism:ingot:1>], [<mekanism:atomicalloy>, <mekanism:ingot:1>, <mekanism:atomicalloy>]]);
+
+
 
 //Dynamic Tank
 recipes.remove(<mekanism:basicblock:9>);
