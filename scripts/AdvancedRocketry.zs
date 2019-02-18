@@ -74,4 +74,7 @@ recipes.addShaped(<advancedrocketry:satelliteprimaryfunction>, [[<appliedenergis
 recipes.remove(<advancedrocketry:fueltank>);
 recipes.addShaped(<advancedrocketry:fueltank> * 4, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>], [<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:steel_iridium_alloy_ingot>]]);
 
+//Liquid Fueled Engine
+recipes.remove(<advancedrocketry:rocketmotor>);
+recipes.addShaped(<advancedrocketry:rocketmotor>, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[null, <techreborn:plates:30>, null], [<techreborn:plates:30>, null, <techreborn:plates:30>]]);
 
