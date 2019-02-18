@@ -50,3 +50,8 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2, [[<libvulpes:structuremachin
 recipes.remove(<libvulpes:battery>);
 recipes.addShaped(<libvulpes:battery> * 16, [[null, <missingmaterialsmod:steel_iridium_alloy_ingot>, null],[<ic2:plate:17>, <minecraft:redstone_block>, <ic2:plate:17>], [<ic2:plate:17>, <minecraft:redstone_block>, <ic2:plate:17>]]);
 
+//2x Small Battery
+recipes.remove(<libvulpes:battery:1>);
+recipes.addShaped(<libvulpes:battery:1>, [[null, null, null],[<libvulpes:battery>, <ic2:plate:10>, <libvulpes:battery>], [<libvulpes:battery>, <ic2:plate:10>, <libvulpes:battery>]]);
+
+
