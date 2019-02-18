@@ -54,4 +54,6 @@ recipes.addShaped(<libvulpes:battery> * 16, [[null, <missingmaterialsmod:steel_i
 recipes.remove(<libvulpes:battery:1>);
 recipes.addShaped(<libvulpes:battery:1>, [[null, null, null],[<libvulpes:battery>, <ic2:plate:10>, <libvulpes:battery>], [<libvulpes:battery>, <ic2:plate:10>, <libvulpes:battery>]]);
 
-
+//Coal Generator
+recipes.remove(<libvulpes:coalgenerator>);
+recipes.addShaped(<libvulpes:coalgenerator>, [[null, <libvulpes:battery:1>, null],[null, <minecraft:furnace>, null], [null, <libvulpes:structuremachine>, null]]);
