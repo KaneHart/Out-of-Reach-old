@@ -44,3 +44,17 @@ recipes.remove(<mekanism:transmitter:0>.withTag({tier: 2}));
 mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 2}));
 recipes.remove(<mekanism:transmitter:0>.withTag({tier: 3}));
 mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 3}));
+
+//Removed Random Tools
+recipes.remove(<mekanism:flamethrower>);
+mods.jei.JEI.hide(<mekanism:flamethrower>);
+recipes.remove(<mekanism:armoredjetpack>);
+mods.jei.JEI.hide(<mekanism:armoredjetpack>);
+recipes.remove(<mekanism:freerunners>);
+mods.jei.JEI.hide(<mekanism:freerunners>);
+recipes.remove(<mekanism:jetpack>);
+mods.jei.JEI.hide(<mekanism:jetpack>);
+recipes.remove(<mekanism:atomicdisassembler>);
+mods.jei.JEI.hide(<mekanism:atomicdisassembler>);
+recipes.remove(<mekanism:electricbow>);
+mods.jei.JEI.hide(<mekanism:electricbow>);
