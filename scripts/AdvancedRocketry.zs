@@ -57,3 +57,7 @@ recipes.addShaped(<libvulpes:battery:1>, [[null, null, null],[<libvulpes:battery
 //Coal Generator
 recipes.remove(<libvulpes:coalgenerator>);
 recipes.addShaped(<libvulpes:coalgenerator>, [[null, <libvulpes:battery:1>, null],[null, <minecraft:furnace>, null], [null, <libvulpes:structuremachine>, null]]);
+
+//Basic Lens
+recipes.remove(<advancedrocketry:lens>);
+recipes.addShaped(<advancedrocketry:lens>, [[null, <appliedenergistics2:quartz_glass>, null],[<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], [null, <appliedenergistics2:quartz_glass>, null]]);
