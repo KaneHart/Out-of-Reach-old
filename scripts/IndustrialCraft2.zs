@@ -92,3 +92,7 @@ recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <techreborn:machine_casing:2
 
 //Added a tooltip for those who don't know how Reinforced stone works. 
 <ic2:resource:11>.addTooltip(format.aqua("Spray CF Foam onto Reinforced Iron Scaffold then let dry."));
+
+//removed Electric Boat
+recipes.remove(<ic2:boat:3>);
+mods.jei.JEI.hide(<ic2:boat:3>);
