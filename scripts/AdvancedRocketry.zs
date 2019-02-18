@@ -78,3 +78,8 @@ recipes.addShaped(<advancedrocketry:fueltank> * 4, [[<missingmaterialsmod:steel_
 recipes.remove(<advancedrocketry:rocketmotor>);
 recipes.addShaped(<advancedrocketry:rocketmotor>, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[null, <techreborn:plates:30>, null], [<techreborn:plates:30>, null, <techreborn:plates:30>]]);
 
+//Advanced Rocket Engine
+recipes.remove(<advancedrocketry:advrocketmotor>);
+recipes.addShaped(<advancedrocketry:advrocketmotor>, [[<advancedrocketry:productingot>, <advancedrocketry:productingot>, <advancedrocketry:productingot>],[null, <advancedrocketry:productplate:1>, null], [<advancedrocketry:productplate:1>, <advancedrocketry:rocketmotor>, <advancedrocketry:productplate:1>]]);
+
+
