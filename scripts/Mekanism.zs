@@ -10,6 +10,6 @@ recipes.addShaped(<mekanism:basicblock:8>, [[<mekanism:ingot:1>, <missingmateria
 recipes.remove(<mekanism:basicblock:6>);
 mods.jei.JEI.hide(<mekanism:basicblock:6>);
 
-//Basic Fluid Tank
+//Dynamic Tank
 recipes.remove(<mekanism:machineblock2:11>);
 recipes.addShaped(<mekanism:machineblock2:11>, [[<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],[<mekanism:ingot:1>, null, <mekanism:ingot:1>], [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>]]);
