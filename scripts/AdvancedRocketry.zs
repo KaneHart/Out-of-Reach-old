@@ -82,4 +82,9 @@ recipes.addShaped(<advancedrocketry:rocketmotor>, [[<missingmaterialsmod:steel_i
 recipes.remove(<advancedrocketry:advrocketmotor>);
 recipes.addShaped(<advancedrocketry:advrocketmotor>, [[<advancedrocketry:productingot>, <advancedrocketry:productingot>, <advancedrocketry:productingot>],[null, <advancedrocketry:productplate:1>, null], [<advancedrocketry:productplate:1>, <advancedrocketry:rocketmotor>, <advancedrocketry:productplate:1>]]);
 
+//Structure Tower
+recipes.remove(<advancedrocketry:structuretower>);
+recipes.addShaped(<advancedrocketry:structuretower> * 8, [[<immersiveengineering:material:2>, <immersiveengineering:material:2>, <immersiveengineering:material:2>],[null, <libvulpes:structuremachine>, null], [<immersiveengineering:material:2>, <immersiveengineering:material:2>, <immersiveengineering:material:2>]]);
+
+
 
