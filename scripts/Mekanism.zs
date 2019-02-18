@@ -9,6 +9,14 @@ recipes.addShaped(<mekanism:basicblock:8>, [[<mekanism:ingot:1>, <missingmateria
 //Disabled Bins
 recipes.remove(<mekanism:basicblock:6>);
 mods.jei.JEI.hide(<mekanism:basicblock:6>);
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 1, mekData: {}}));
+mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 1, mekData: {}}));
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 2, mekData: {}}));
+mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 2, mekData: {}}));
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 3, mekData: {}}));
+mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 3, mekData: {}}));
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}));
+mods.jei.JEI.hide(<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}));
 
 //Basic Fluid Tank
 recipes.remove(<mekanism:machineblock2:11>);
