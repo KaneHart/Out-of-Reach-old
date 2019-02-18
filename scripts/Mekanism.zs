@@ -58,3 +58,7 @@ recipes.remove(<mekanism:atomicdisassembler>);
 mods.jei.JEI.hide(<mekanism:atomicdisassembler>);
 recipes.remove(<mekanism:electricbow>);
 mods.jei.JEI.hide(<mekanism:electricbow>);
+
+//Garden Cloche
+recipes.remove(<immersiveengineering:metal_device1:13>);
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<ore:blockGlassColorless>, <mekanism:controlcircuit:3>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [<ore:plankTreatedWood>, <mekanism:basicblock:8>, <ore:plankTreatedWood>]]);
