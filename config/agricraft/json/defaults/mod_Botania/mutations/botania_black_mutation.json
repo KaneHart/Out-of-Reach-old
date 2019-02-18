@@ -1,6 +1,6 @@
 {
   "path": "mod_Botania/mutations/botania_black_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.5,
   "child": "botania:black_flower_plant",
   "parent1": "botania:magenta_flower_plant",

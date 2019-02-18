@@ -1,6 +1,6 @@
 {
   "path": "mod_Botania/plants/botania_light_gray_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "botania:light_gray_flower_plant",
   "plant_name": "Mystical Light Gray Flower",
   "seed_name": "Mystical Light Gray Seeds",

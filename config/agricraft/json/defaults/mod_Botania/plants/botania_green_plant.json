@@ -1,6 +1,6 @@
 {
   "path": "mod_Botania/plants/botania_green_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "botania:green_flower_plant",
   "plant_name": "Mystical Green Flower",
   "seed_name": "Mystical Green Seeds",

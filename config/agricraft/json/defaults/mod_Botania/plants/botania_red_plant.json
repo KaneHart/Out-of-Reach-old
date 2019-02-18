@@ -1,6 +1,6 @@
 {
   "path": "mod_Botania/plants/botania_red_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "botania:red_flower_plant",
   "plant_name": "Mystical Red Flower",
   "seed_name": "Mystical Red Seeds",
