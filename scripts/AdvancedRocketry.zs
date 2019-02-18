@@ -70,3 +70,8 @@ recipes.addShaped(<libvulpes:productfan:6>, [[<missingmaterialsmod:silver_infuse
 recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
 recipes.addShaped(<advancedrocketry:satelliteprimaryfunction>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>]]);
 
+//Liquid Fuel Tank
+recipes.remove(<advancedrocketry:fueltank>);
+recipes.addShaped(<advancedrocketry:fueltank> * 4, [[<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:steel_iridium_alloy_ingot>],[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>], [<missingmaterialsmod:steel_iridium_alloy_ingot>, <missingmaterialsmod:silver_infused_steel_plate>, <missingmaterialsmod:steel_iridium_alloy_ingot>]]);
+
+
