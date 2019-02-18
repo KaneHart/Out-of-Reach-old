@@ -65,3 +65,8 @@ recipes.addShaped(<advancedrocketry:lens>, [[null, <appliedenergistics2:quartz_g
 //Steel Fan
 recipes.remove(<libvulpes:productfan:6>);
 recipes.addShaped(<libvulpes:productfan:6>, [[<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>],[null, <missingmaterialsmod:steel_iridium_alloy_ingot>, null], [<missingmaterialsmod:silver_infused_steel_plate>, null, <missingmaterialsmod:silver_infused_steel_plate>]]);
+
+//Optical Sensor
+recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
+recipes.addShaped(<advancedrocketry:satelliteprimaryfunction>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:20>, <appliedenergistics2:quartz_glass>]]);
+
