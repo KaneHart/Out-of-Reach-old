@@ -21,3 +21,13 @@ recipes.addShaped(<mekanism:basicblock:9> * 4, [[null, <mekanism:ingot:1>, null]
 //Structural Glass
 recipes.remove(<mekanism:basicblock:10>);
 recipes.addShaped(<mekanism:basicblock:10> * 4, [[null, <mekanism:ingot:1>, null],[<mekanism:ingot:1>, <ore:blockGlassColorless>, <mekanism:ingot:1>], [null, <mekanism:ingot:1>, null]]);
+
+//Removed Universal Cable
+recipes.remove(<mekanism:transmitter:0>.withTag({tier: 0}));
+mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 0}));
+recipes.remove(<mekanism:transmitter:0>.withTag({tier: 1}));
+mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 1}));
+recipes.remove(<mekanism:transmitter:0>.withTag({tier: 2}));
+mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 2}));
+recipes.remove(<mekanism:transmitter:0>.withTag({tier: 3}));
+mods.jei.JEI.hide(<mekanism:transmitter:0>.withTag({tier: 3}));
